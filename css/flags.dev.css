@@ -1,12 +1,8 @@
 .flag {
-  background: #eee url("flags.png") no-repeat -300px -252px;
+  background: #f5f5f5 url("flags.png") no-repeat -300px -252px;
   background-size: 300px 252px;
   display: inline-block;
   height: 14px;
-  left: 5px;
-  margin-top: -7px;
-  position: absolute;
-  top: 50%;
   width: 20px;
 }
 
