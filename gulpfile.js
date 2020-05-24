@@ -1,5 +1,5 @@
 const project = {
-		'cssPath'   : './css'
+		'cssPath'   : './dist/css'
 	},
 
 	// GULP MODULES;
@@ -12,7 +12,7 @@ const project = {
 	concat          = require('gulp-concat');
 
 gulp.task('styles', function(){
-  return gulp.src('./sass/flags.scss')
+  return gulp.src('./src/sass/flags.scss')
 		.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
 		.pipe(mediaQueries())
 		.pipe(concat('flags.dev.css'))
@@ -29,7 +29,7 @@ gulp.task('styles', function(){
 });
 
 gulp.task('images', function(){
-	return gulp.src('images/**/*')
+	return gulp.src('./images/**/*')
 		.pipe(imageOpt({
 			pngquant: true,
 			optipng: false,
@@ -44,7 +44,7 @@ gulp.task('images', function(){
 });
 
 gulp.task('watch-styles', function(){
-	gulp.watch(['./sass/**/*.scss'], gulp.series(['styles']));
+	gulp.watch(['./src/sass/**/*.scss'], gulp.series(['styles']));
 });
 
 gulp.task('default', gulp.parallel(['styles', 'watch-styles', 'images']));
