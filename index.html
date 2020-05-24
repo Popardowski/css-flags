@@ -1,0 +1,2511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <title>CSS Flags - demo</title>
+
+  <style type="text/css">
+    html, body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      -webkit-text-rendering: optimizeLegibility;
+      -moz-text-rendering: optimizeLegibility;
+      -ms-text-rendering: optimizeLegibility;
+      -o-text-rendering: optimizeLegibility;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+    html {
+      background: #eee;
+      color: #333;
+      text-align: center;
+      width: 100%;
+      max-width: 100vw;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    body {
+      line-height: 1.5em;
+      margin: 2em auto 4em;
+      text-align: left;
+      width: 94%;
+      max-width: 60em;
+    }
+    * { box-sizing: border-box; }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    table td,
+    table th {
+      display: inline-block;
+      padding: 4px 8px;
+      text-align: left;
+    }
+    table td:empty {
+      display: none;
+    }
+    table tr {
+      border-bottom: 1px solid #ccc;
+      display: block;
+      overflow: hidden;
+      padding: 0.5em 0;
+    }
+    table tr:nth-child(even) {
+      background: #dfdfdf;
+    }
+    table th:first-of-type,
+    table td:first-of-type {
+      min-width: 40px;
+    }
+    table th {
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    table th:nth-child(n+3) {
+      display: none;
+    }
+    table tbody th {
+      padding-top: 2em;
+    }
+    table tbody td {
+      float: left;
+    }
+    table tbody td:nth-child(n+2) {
+      font-size: 16px;
+      font-weight: bold;
+      min-width: calc(100% - 40px);
+    }
+    table tbody td:nth-child(n+3) {
+      min-width: unset;
+      width: auto;
+    }
+    code {
+      background: #f5f5f5;
+      border-radius: 4px;
+      display: inline-block;
+      color: #333;
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 8px;
+      padding: 0.25em 0.5em;
+      white-space: nowrap;
+    }
+    code:last-of-type {
+      margin-bottom: 0;
+    }
+    .flag {
+      background: #ccc;
+      display: inline-block;
+      height: 14px;
+      width: 20px;
+    }
+
+    @media (min-width: 1000px) {
+      table tr {
+        display: table-row !important;
+      }
+      table th, table td {
+        display: table-cell !important;
+        float: none !important;
+        padding: 8px;
+      }
+      table tbody td:nth-child(n+2) {
+        font-size: 1em;
+        font-weight: normal;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="./dist/css/flags.css" media="all" />
+</head>
+<body>
+
+  <h1>
+    CSS Flags - demo
+  </h1>
+  <table>
+    <thead>
+      <tr>
+        <th>&nbsp;</th>
+        <th>Countries and territories</th>
+        <th>flag name class</th>
+        <th>ISO code alpha 2</th>
+        <th>… alpha 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span class="flag flag-abkhazia"></span>
+        </td>
+        <td>Abkhazia</td>
+        <td colspan="3"><code>.flag-abkhazia</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-af"></span>
+        </td>
+        <td>Afghanistan</td>
+        <td><code>.flag-afghanistan</code></td>
+        <td><code>.flag-af</code></td>
+        <td><code>.flag-afg</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ax"></span>
+        </td>
+        <td>Aland Islands</td>
+        <td><code>.flag-aland-islands</code></td>
+        <td><code>.flag-ax</code></td>
+        <td><code>.flag-ala</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-al"></span>
+        </td>
+        <td>Albania</td>
+        <td><code>.flag-albania</code></td>
+        <td><code>.flag-al</code></td>
+        <td><code>.flag-alb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-dz"></span>
+        </td>
+        <td>Algeria</td>
+        <td><code>.flag-algeria</code></td>
+        <td><code>.flag-dz</code></td>
+        <td><code>.flag-dza</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-as"></span>
+        </td>
+        <td>American Samoa</td>
+        <td><code>.flag-american-samoa</code></td>
+        <td><code>.flag-as</code></td>
+        <td><code>.flag-asm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-an"></span>
+        </td>
+        <td>Andorra</td>
+        <td><code>.flag-andorra</code></td>
+        <td><code>.flag-an</code></td>
+        <td><code>.flag-and</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ao"></span>
+        </td>
+        <td>Angola</td>
+        <td><code>.flag-angola</code></td>
+        <td><code>.flag-ao</code></td>
+        <td><code>.flag-ago</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ai"></span>
+        </td>
+        <td>Anguilla</td>
+        <td><code>.flag-anguilla</code></td>
+        <td><code>.flag-ai</code></td>
+        <td><code>.flag-aia</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ag"></span>
+        </td>
+        <td>Antigua and Barbuda</td>
+        <td><code>.flag-antigua-and-barbuda</code></td>
+        <td><code>.flag-ag</code></td>
+        <td><code>.flag-atg</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ar"></span>
+        </td>
+        <td>Argentina</td>
+        <td><code>.flag-argentina</code></td>
+        <td><code>.flag-ar</code></td>
+        <td><code>.flag-arg</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-am"></span>
+        </td>
+        <td>Armenia</td>
+        <td><code>.flag-armenia</code></td>
+        <td><code>.flag-am</code></td>
+        <td><code>.flag-arm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-aw"></span>
+        </td>
+        <td>Aruba</td>
+        <td><code>.flag-aruba</code></td>
+        <td><code>.flag-aw</code></td>
+        <td><code>.flag-abw</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-au"></span>
+        </td>
+        <td>Australia</td>
+        <td><code>.flag-australia</code></td>
+        <td><code>.flag-au</code></td>
+        <td><code>.flag-aus</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-at"></span>
+        </td>
+        <td>Austria</td>
+        <td><code>.flag-austria</code></td>
+        <td><code>.flag-at</code></td>
+        <td><code>.flag-aut</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-az"></span>
+        </td>
+        <td>Azerbaijan</td>
+        <td><code>.flag-azerbaijan</code></td>
+        <td><code>.flag-az</code></td>
+        <td><code>.flag-aze</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-azores-islands"></span>
+        </td>
+        <td>Azores Islands</td>
+        <td colspan="3"><code>.flag-azores-islands</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bs"></span>
+        </td>
+        <td>Bahamas</td>
+        <td><code>.flag-bahamas</code></td>
+        <td><code>.flag-bs</code></td>
+        <td><code>.flag-bhs</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bh"></span>
+        </td>
+        <td>Bahrain</td>
+        <td><code>.flag-bahrain</code></td>
+        <td><code>.flag-bh</code></td>
+        <td><code>.flag-bhr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bd"></span>
+        </td>
+        <td>Bangladesh</td>
+        <td><code>.flag-bangladesh</code></td>
+        <td><code>.flag-bd</code></td>
+        <td><code>.flag-bgd</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-balearic-islands"></span>
+        </td>
+        <td>Balearic Islands</td>
+        <td colspan="3"><code>.flag-balearic-islands</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bb"></span>
+        </td>
+        <td>Barbados</td>
+        <td><code>.flag-barbados</code></td>
+        <td><code>.flag-bb</code></td>
+        <td><code>.flag-brb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-basque-country"></span>
+        </td>
+        <td>Basque Country</td>
+        <td colspan="3"><code>.flag-basque-country</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-by"></span>
+        </td>
+        <td>Belarus</td>
+        <td><code>.flag-belarus</code></td>
+        <td><code>.flag-by</code></td>
+        <td><code>.flag-blr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-be"></span>
+        </td>
+        <td>Belgium</td>
+        <td><code>.flag-belgium</code></td>
+        <td><code>.flag-be</code></td>
+        <td><code>.flag-bel</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bz"></span>
+        </td>
+        <td>Belize</td>
+        <td><code>.flag-belize</code></td>
+        <td><code>.flag-bz</code></td>
+        <td><code>.flag-blz</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bj"></span>
+        </td>
+        <td>Benin</td>
+        <td><code>.flag-benin</code></td>
+        <td><code>.flag-bj</code></td>
+        <td><code>.flag-ben</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bm"></span>
+        </td>
+        <td>Bermuda</td>
+        <td><code>.flag-bermuda</code></td>
+        <td><code>.flag-bm</code></td>
+        <td><code>.flag-bmu</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bt"></span>
+        </td>
+        <td>Bhutan</td>
+        <td><code>.flag-bhutan</code></td>
+        <td><code>.flag-bt</code></td>
+        <td><code>.flag-btn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bo"></span>
+        </td>
+        <td>Bolivia</td>
+        <td><code>.flag-bolivia</code></td>
+        <td><code>.flag-bo</code></td>
+        <td><code>.flag-bol</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bonaire"></span>
+        </td>
+        <td>Bonaire</td>
+        <td colspan="3"><code>.flag-bonaire</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ba"></span>
+        </td>
+        <td>Bosnia and Herzegovina</td>
+        <td><code>.flag-bosnia-and-herzegovina</code></td>
+        <td><code>.flag-ba</code></td>
+        <td><code>.flag-bih</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bw"></span>
+        </td>
+        <td>Botswana</td>
+        <td><code>.flag-botswana</code></td>
+        <td><code>.flag-bw</code></td>
+        <td><code>.flag-bwa</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-br"></span>
+        </td>
+        <td>Brazil</td>
+        <td><code>.flag-brazil</code></td>
+        <td><code>.flag-br</code></td>
+        <td><code>.flag-bra</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-british-columbia"></span>
+        </td>
+        <td>British Columbia</td>
+        <td colspan="3"><code>.flag-british-columbia</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-io"></span>
+        </td>
+        <td>British Indian Ocean Territory</td>
+        <td><code>.flag-british-indian-ocean-territory</code></td>
+        <td><code>.flag-io</code></td>
+        <td><code>.flag-iot</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-vg"></span>
+        </td>
+        <td>British Virgin Islands</td>
+        <td><code>.flag-british-virgin-islands</code></td>
+        <td><code>.flag-vg</code></td>
+        <td><code>.flag-vgb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bn"></span>
+        </td>
+        <td>Brunei</td>
+        <td><code>.flag-brunei</code></td>
+        <td><code>.flag-bn</code></td>
+        <td><code>.flag-brn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bg"></span>
+        </td>
+        <td>Bulgaria</td>
+        <td><code>.flag-bulgaria</code></td>
+        <td><code>.flag-bg</code></td>
+        <td><code>.flag-bgr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bf"></span>
+        </td>
+        <td>Burkina Faso</td>
+        <td><code>.flag-burkina-faso</code></td>
+        <td><code>.flag-bf</code></td>
+        <td><code>.flag-bfa</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-bi"></span>
+        </td>
+        <td>Burundi</td>
+        <td><code>.flag-burundi</code></td>
+        <td><code>.flag-bi</code></td>
+        <td><code>.flag-bdi</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kh"></span>
+        </td>
+        <td>Cambodia</td>
+        <td><code>.flag-cambodia</code></td>
+        <td><code>.flag-kh</code></td>
+        <td><code>.flag-khm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cm"></span>
+        </td>
+        <td>Cameroon</td>
+        <td><code>.flag-cameroon</code></td>
+        <td><code>.flag-cm</code></td>
+        <td><code>.flag-cmr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ca"></span>
+        </td>
+        <td>Canada</td>
+        <td><code>.flag-canada</code></td>
+        <td><code>.flag-ca</code></td>
+        <td><code>.flag-can</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-canary-islands"></span>
+        </td>
+        <td>Canary Islands</td>
+        <td colspan="3"><code>.flag-canary-islands</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cv"></span>
+        </td>
+        <td>Cape Verde</td>
+        <td><code>.flag-cape-verde</code></td>
+        <td><code>.flag-cv</code></td>
+        <td><code>.flag-cpv</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ky"></span>
+        </td>
+        <td>Cayman Islands</td>
+        <td><code>.flag-cayman-islands</code></td>
+        <td><code>.flag-ky</code></td>
+        <td><code>.flag-cym</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cf"></span>
+        </td>
+        <td>Central African Republic</td>
+        <td><code>.flag-central-african-republic</code></td>
+        <td><code>.flag-cf</code></td>
+        <td><code>.flag-caf</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ceuta"></span>
+        </td>
+        <td>Ceuta</td>
+        <td colspan="3"><code>.flag-ceuta</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-td"></span>
+        </td>
+        <td>Chad</td>
+        <td><code>.flag-chad</code></td>
+        <td><code>.flag-td</code></td>
+        <td><code>.flag-tcd</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cl"></span>
+        </td>
+        <td>Chile</td>
+        <td><code>.flag-chile</code></td>
+        <td><code>.flag-cl</code></td>
+        <td><code>.flag-chl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cn"></span>
+        </td>
+        <td>China</td>
+        <td><code>.flag-china</code></td>
+        <td><code>.flag-cn</code></td>
+        <td><code>.flag-chn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-chinese-taipei"></span>
+        </td>
+        <td>Chinese Taipei</td>
+        <td colspan="3"><code>.flag-chinese-taipei</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cx"></span>
+        </td>
+        <td>Christmas Island</td>
+        <td><code>.flag-christmas-island</code></td>
+        <td><code>.flag-cx</code></td>
+        <td><code>.flag-cxr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cc"></span>
+        </td>
+        <td>Cocos Islands</td>
+        <td><code>.flag-cocos-islands</code></td>
+        <td><code>.flag-cc</code></td>
+        <td><code>.flag-cck</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-co"></span>
+        </td>
+        <td>Colombia</td>
+        <td><code>.flag-colombia</code></td>
+        <td><code>.flag-co</code></td>
+        <td><code>.flag-col</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-km"></span>
+        </td>
+        <td>Comoros</td>
+        <td><code>.flag-comoros</code></td>
+        <td><code>.flag-km</code></td>
+        <td><code>.flag-com</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cg"></span>
+        </td>
+        <td>Congo</td>
+        <td><code>.flag-congo</code></td>
+        <td><code>.flag-cg</code></td>
+        <td><code>.flag-cog</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ck"></span>
+        </td>
+        <td>Cook Islands</td>
+        <td><code>.flag-cook-islands</code></td>
+        <td><code>.flag-ck</code></td>
+        <td><code>.flag-cok</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-corsica"></span>
+        </td>
+        <td>Corsica</td>
+        <td colspan="3"><code>.flag-corsica</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cr"></span>
+        </td>
+        <td>Costa Rica</td>
+        <td><code>.flag-costa-rica</code></td>
+        <td><code>.flag-cr</code></td>
+        <td><code>.flag-cri</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ci"></span>
+        </td>
+        <td>Côte d'Ivoire (Ivory Coast)</td>
+        <td><code>.flag-cote-d-ivoire</code> <br><code>.flag-ivory-coast</code></td>
+        <td><code>.flag-ci</code></td>
+        <td><code>.flag-civ</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-hr"></span>
+        </td>
+        <td>Croatia</td>
+        <td><code>.flag-croatia</code></td>
+        <td><code>.flag-hr</code></td>
+        <td><code>.flag-hrv</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cu"></span>
+        </td>
+        <td>Cuba</td>
+        <td><code>.flag-cuba</code></td>
+        <td><code>.flag-cu</code></td>
+        <td><code>.flag-cub</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cw"></span>
+        </td>
+        <td>Curacao</td>
+        <td><code>.flag-curacao</code></td>
+        <td><code>.flag-cw</code></td>
+        <td><code>.flag-cuw</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cy"></span>
+        </td>
+        <td>Cyprus</td>
+        <td><code>.flag-cyprus</code></td>
+        <td><code>.flag-cy</code></td>
+        <td><code>.flag-cyp</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cz"></span>
+        </td>
+        <td>Czechia (Czech Republic)</td>
+        <td><code>.flag-czechia</code> <br><code>.flag-czech-republic</code></td>
+        <td><code>.flag-cz</code></td>
+        <td><code>.flag-cze</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-cd"></span>
+        </td>
+        <td>Democratic Republic of Congo</td>
+        <td><code>.flag-democratic-republic-of-congo</code></td>
+        <td><code>.flag-cd</code></td>
+        <td><code>.flag-cod</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-dk"></span>
+        </td>
+        <td>Denmark</td>
+        <td><code>.flag-denmark</code></td>
+        <td><code>.flag-dk</code></td>
+        <td><code>.flag-dnk</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-dj"></span>
+        </td>
+        <td>Djibouti</td>
+        <td><code>.flag-djibouti</code></td>
+        <td><code>.flag-dj</code></td>
+        <td><code>.flag-dji</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-dm"></span>
+        </td>
+        <td>Dominica</td>
+        <td><code>.flag-dominica</code></td>
+        <td><code>.flag-dm</code></td>
+        <td><code>.flag-dma</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-do"></span>
+        </td>
+        <td>Dominican Republic</td>
+        <td><code>.flag-dominican-republic</code></td>
+        <td><code>.flag-do</code></td>
+        <td><code>.flag-dom</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tl"></span>
+        </td>
+        <td>East Timor (Timor Leste)</td>
+        <td><code>.flag-timor-leste</code> <br><code>.flag-east-timor</code></td>
+        <td><code>.flag-tl</code></td>
+        <td><code>.flag-tls</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ec"></span>
+        </td>
+        <td>Ecuador</td>
+        <td><code>.flag-ecuador</code></td>
+        <td><code>.flag-ec</code></td>
+        <td><code>.flag-ecu</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-eg"></span>
+        </td>
+        <td>Egypt</td>
+        <td><code>.flag-egypt</code></td>
+        <td><code>.flag-eg</code></td>
+        <td><code>.flag-egy</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sv"></span>
+        </td>
+        <td>El Salvador</td>
+        <td><code>.flag-el-salvador</code></td>
+        <td><code>.flag-sv</code></td>
+        <td><code>.flag-slv</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-england"></span>
+        </td>
+        <td>England</td>
+        <td colspan="3"><code>.flag-england</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gq"></span>
+        </td>
+        <td>Equatorial Guinea</td>
+        <td><code>.flag-equatorial-guinea</code></td>
+        <td><code>.flag-gq</code></td>
+        <td><code>.flag-gnq</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-er"></span>
+        </td>
+        <td>Eritrea</td>
+        <td><code>.flag-eritrea</code></td>
+        <td><code>.flag-er</code></td>
+        <td><code>.flag-eri</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ee"></span>
+        </td>
+        <td>Estonia</td>
+        <td><code>.flag-estonia</code></td>
+        <td><code>.flag-ee</code></td>
+        <td><code>.flag-est</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sz"></span>
+        </td>
+        <td>Eswatini (Swaziland)</td>
+        <td><code>.flag-eswatini</code> <br><code>.flag-swaziland</code></td>
+        <td><code>.flag-sz</code></td>
+        <td><code>.flag-swz</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-et"></span>
+        </td>
+        <td>Ethiopia</td>
+        <td><code>.flag-ethiopia</code></td>
+        <td><code>.flag-et</code></td>
+        <td><code>.flag-eth</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-fk"></span>
+        </td>
+        <td>Falkland Islands (Malvinas)</td>
+        <td><code>.flag-falkland-islands</code> <br><code>.flag-malvinas</code></td>
+        <td><code>.flag-fk</code></td>
+        <td><code>.flag-flk</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-fo"></span>
+        </td>
+        <td>Faroe Islands</td>
+        <td><code>.flag-faroe-islands</code></td>
+        <td><code>.flag-fo</code></td>
+        <td><code>.flag-fro</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-fj"></span>
+        </td>
+        <td>Fiji</td>
+        <td><code>.flag-fiji</code></td>
+        <td><code>.flag-fj</code></td>
+        <td><code>.flag-fji</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-fi"></span>
+        </td>
+        <td>Finland</td>
+        <td><code>.flag-finland</code></td>
+        <td><code>.flag-fi</code></td>
+        <td><code>.flag-fin</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-fr"></span>
+        </td>
+        <td>France</td>
+        <td><code>.flag-france</code></td>
+        <td><code>.flag-fr</code></td>
+        <td><code>.flag-fra</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pf"></span>
+        </td>
+        <td>French Polynesia</td>
+        <td><code>.flag-french-polynesia</code></td>
+        <td><code>.flag-pf</code></td>
+        <td><code>.flag-pyf</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ga"></span>
+        </td>
+        <td>Gabon</td>
+        <td><code>.flag-gabon</code></td>
+        <td><code>.flag-ga</code></td>
+        <td><code>.flag-gab</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-galapagos-islands"></span>
+        </td>
+        <td>Galapagos Islands</td>
+        <td colspan="3"><code>.flag-galapagos-islands</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gm"></span>
+        </td>
+        <td>Gambia</td>
+        <td><code>.flag-gambia</code></td>
+        <td><code>.flag-gm</code></td>
+        <td><code>.flag-gmb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ge"></span>
+        </td>
+        <td>Georgia</td>
+        <td><code>.flag-georgia</code></td>
+        <td><code>.flag-ge</code></td>
+        <td><code>.flag-geo</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-de"></span>
+        </td>
+        <td>Germany</td>
+        <td><code>.flag-germany</code></td>
+        <td><code>.flag-de</code></td>
+        <td><code>.flag-deu</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gh"></span>
+        </td>
+        <td>Ghana</td>
+        <td><code>.flag-ghana</code></td>
+        <td><code>.flag-gh</code></td>
+        <td><code>.flag-gha</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gi"></span>
+        </td>
+        <td>Gibraltar</td>
+        <td><code>.flag-gibraltar</code></td>
+        <td><code>.flag-gi</code></td>
+        <td><code>.flag-gib</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gr"></span>
+        </td>
+        <td>Greece</td>
+        <td><code>.flag-greece</code></td>
+        <td><code>.flag-gr</code></td>
+        <td><code>.flag-grc</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gl"></span>
+        </td>
+        <td>Greenland</td>
+        <td><code>.flag-greenland</code></td>
+        <td><code>.flag-gl</code></td>
+        <td><code>.flag-grl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gd"></span>
+        </td>
+        <td>Grenada</td>
+        <td><code>.flag-grenada</code></td>
+        <td><code>.flag-gd</code></td>
+        <td><code>.flag-grd</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gu"></span>
+        </td>
+        <td>Guam</td>
+        <td><code>.flag-guam</code></td>
+        <td><code>.flag-gu</code></td>
+        <td><code>.flag-gum</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gt"></span>
+        </td>
+        <td>Guatemala</td>
+        <td><code>.flag-guatemala</code></td>
+        <td><code>.flag-gt</code></td>
+        <td><code>.flag-gtm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gg"></span>
+        </td>
+        <td>Guernsey</td>
+        <td><code>.flag-guernsey</code></td>
+        <td><code>.flag-gg</code></td>
+        <td><code>.flag-ggy</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gn"></span>
+        </td>
+        <td>Guinea</td>
+        <td><code>.flag-guinea</code></td>
+        <td><code>.flag-gn</code></td>
+        <td><code>.flag-gin</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gw"></span>
+        </td>
+        <td>Guinea Bissau</td>
+        <td><code>.flag-guinea-bissau</code></td>
+        <td><code>.flag-gw</code></td>
+        <td><code>.flag-gnb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ht"></span>
+        </td>
+        <td>Haiti</td>
+        <td><code>.flag-haiti</code></td>
+        <td><code>.flag-ht</code></td>
+        <td><code>.flag-hti</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-hawaii"></span>
+        </td>
+        <td>Hawaii</td>
+        <td colspan="3"><code>.flag-hawaii</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-va"></span>
+        </td>
+        <td>The Holy See (Vatican City)</td>
+        <td><code>.flag-the-holy-see</code> <br><code>.flag-vatican-city</code></td>
+        <td><code>.flag-va</code></td>
+        <td><code>.flag-vat</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-hn"></span>
+        </td>
+        <td>Honduras</td>
+        <td><code>.flag-honduras</code></td>
+        <td><code>.flag-hn</code></td>
+        <td><code>.flag-hnd</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-hk"></span>
+        </td>
+        <td>Hong Kong</td>
+        <td><code>.flag-hong-kong</code></td>
+        <td><code>.flag-hk</code></td>
+        <td><code>.flag-hkg</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-hu"></span>
+        </td>
+        <td>Hungary</td>
+        <td><code>.flag-hungary</code></td>
+        <td><code>.flag-hu</code></td>
+        <td><code>.flag-hun</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-is"></span>
+        </td>
+        <td>Iceland</td>
+        <td><code>.flag-iceland</code></td>
+        <td><code>.flag-is</code></td>
+        <td><code>.flag-isl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-in"></span>
+        </td>
+        <td>India</td>
+        <td><code>.flag-india</code></td>
+        <td><code>.flag-in</code></td>
+        <td><code>.flag-ind</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-id"></span>
+        </td>
+        <td>Indonesia</td>
+        <td><code>.flag-indonesia</code></td>
+        <td><code>.flag-id</code></td>
+        <td><code>.flag-idn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ir"></span>
+        </td>
+        <td>Iran</td>
+        <td><code>.flag-iran</code></td>
+        <td><code>.flag-ir</code></td>
+        <td><code>.flag-irn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-iq"></span>
+        </td>
+        <td>Iraq</td>
+        <td><code>.flag-iraq</code></td>
+        <td><code>.flag-iq</code></td>
+        <td><code>.flag-irq</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ie"></span>
+        </td>
+        <td>Ireland</td>
+        <td><code>.flag-ireland</code></td>
+        <td><code>.flag-ie</code></td>
+        <td><code>.flag-irl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-im"></span>
+        </td>
+        <td>Isle of Man</td>
+        <td><code>.flag-isle-of-man</code></td>
+        <td><code>.flag-im</code></td>
+        <td><code>.flag-imn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-il"></span>
+        </td>
+        <td>Israel</td>
+        <td><code>.flag-israel</code></td>
+        <td><code>.flag-il</code></td>
+        <td><code>.flag-isr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-it"></span>
+        </td>
+        <td>Italy</td>
+        <td><code>.flag-italy</code></td>
+        <td><code>.flag-it</code></td>
+        <td><code>.flag-ita</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-jm"></span>
+        </td>
+        <td>Jamaica</td>
+        <td><code>.flag-jamaica</code></td>
+        <td><code>.flag-jm</code></td>
+        <td><code>.flag-jam</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-jp"></span>
+        </td>
+        <td>Japan</td>
+        <td><code>.flag-japan</code></td>
+        <td><code>.flag-jp</code></td>
+        <td><code>.flag-jpn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-je"></span>
+        </td>
+        <td>Jersey</td>
+        <td><code>.flag-jersey</code></td>
+        <td><code>.flag-je</code></td>
+        <td><code>.flag-jey</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-jo"></span>
+        </td>
+        <td>Jordan</td>
+        <td><code>.flag-jordan</code></td>
+        <td><code>.flag-jo</code></td>
+        <td><code>.flag-jor</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kz"></span>
+        </td>
+        <td>Kazakhstan</td>
+        <td><code>.flag-kazakhstan</code></td>
+        <td><code>.flag-kz</code></td>
+        <td><code>.flag-kaz</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ke"></span>
+        </td>
+        <td>Kenya</td>
+        <td><code>.flag-kenya</code></td>
+        <td><code>.flag-ke</code></td>
+        <td><code>.flag-ken</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ki"></span>
+        </td>
+        <td>Kiribati</td>
+        <td><code>.flag-kiribati</code></td>
+        <td><code>.flag-ki</code></td>
+        <td><code>.flag-kir</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kosovo"></span>
+        </td>
+        <td>Kosovo</td>
+        <td colspan="3"><code>.flag-kosovo</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kw"></span>
+        </td>
+        <td>Kuwait</td>
+        <td><code>.flag-kuwait</code></td>
+        <td><code>.flag-kw</code></td>
+        <td><code>.flag-kwt</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kg"></span>
+        </td>
+        <td>Kyrgyzstan</td>
+        <td><code>.flag-kyrgyzstan</code></td>
+        <td><code>.flag-kg</code></td>
+        <td><code>.flag-kgz</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-la"></span>
+        </td>
+        <td>Laos</td>
+        <td><code>.flag-laos</code></td>
+        <td><code>.flag-la</code></td>
+        <td><code>.flag-lao</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lv"></span>
+        </td>
+        <td>Latvia</td>
+        <td><code>.flag-latvia</code></td>
+        <td><code>.flag-lv</code></td>
+        <td><code>.flag-lva</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lb"></span>
+        </td>
+        <td>Lebanon</td>
+        <td><code>.flag-lebanon</code></td>
+        <td><code>.flag-lb</code></td>
+        <td><code>.flag-lbn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ls"></span>
+        </td>
+        <td>Lesotho</td>
+        <td><code>.flag-lesotho</code></td>
+        <td><code>.flag-ls</code></td>
+        <td><code>.flag-lso</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lr"></span>
+        </td>
+        <td>Liberia</td>
+        <td><code>.flag-liberia</code></td>
+        <td><code>.flag-lr</code></td>
+        <td><code>.flag-lbr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ly"></span>
+        </td>
+        <td>Libya</td>
+        <td><code>.flag-libya</code></td>
+        <td><code>.flag-ly</code></td>
+        <td><code>.flag-lby</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-li"></span>
+        </td>
+        <td>Liechtenstein</td>
+        <td><code>.flag-liechtenstein</code></td>
+        <td><code>.flag-li</code></td>
+        <td><code>.flag-lie</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lt"></span>
+        </td>
+        <td>Lithuania</td>
+        <td><code>.flag-lithuania</code></td>
+        <td><code>.flag-lt</code></td>
+        <td><code>.flag-ltu</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lu"></span>
+        </td>
+        <td>Luxembourg</td>
+        <td><code>.flag-luxembourg</code></td>
+        <td><code>.flag-lu</code></td>
+        <td><code>.flag-lux</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mo"></span>
+        </td>
+        <td>Macao</td>
+        <td><code>.flag-macao</code></td>
+        <td><code>.flag-mo</code></td>
+        <td><code>.flag-mac</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mg"></span>
+        </td>
+        <td>Madagascar</td>
+        <td><code>.flag-madagascar</code></td>
+        <td><code>.flag-mg</code></td>
+        <td><code>.flag-mdg</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-madeira"></span>
+        </td>
+        <td>Madeira</td>
+        <td colspan="3"><code>.flag-madeira</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mw"></span>
+        </td>
+        <td>Malawi</td>
+        <td><code>.flag-malawi</code></td>
+        <td><code>.flag-mw</code></td>
+        <td><code>.flag-mwi</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-my"></span>
+        </td>
+        <td>Malasya</td>
+        <td><code>.flag-malasya</code></td>
+        <td><code>.flag-my</code></td>
+        <td><code>.flag-mys</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mv"></span>
+        </td>
+        <td>Maldives</td>
+        <td><code>.flag-maldives</code></td>
+        <td><code>.flag-mv</code></td>
+        <td><code>.flag-mdv</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ml"></span>
+        </td>
+        <td>Mali</td>
+        <td><code>.flag-mali</code></td>
+        <td><code>.flag-ml</code></td>
+        <td><code>.flag-mli</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mt"></span>
+        </td>
+        <td>Malta</td>
+        <td><code>.flag-malta</code></td>
+        <td><code>.flag-mt</code></td>
+        <td><code>.flag-mlt</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mh"></span>
+        </td>
+        <td>Marshall Islands</td>
+        <td><code>.flag-marshall-islands</code></td>
+        <td><code>.flag-mh</code></td>
+        <td><code>.flag-mhl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mq"></span>
+        </td>
+        <td>Martinique</td>
+        <td><code>.flag-martinique</code></td>
+        <td><code>.flag-mq</code></td>
+        <td><code>.flag-mtq</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mr"></span>
+        </td>
+        <td>Mauritania</td>
+        <td><code>.flag-mauritania</code></td>
+        <td><code>.flag-mr</code></td>
+        <td><code>.flag-mrt</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mu"></span>
+        </td>
+        <td>Mauritius</td>
+        <td><code>.flag-mauritius</code></td>
+        <td><code>.flag-mu</code></td>
+        <td><code>.flag-mus</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-melilla"></span>
+        </td>
+        <td>Melilla</td>
+        <td colspan="3"><code>.flag-melilla</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mx"></span>
+        </td>
+        <td>Mexico</td>
+        <td><code>.flag-mexico</code></td>
+        <td><code>.flag-mx</code></td>
+        <td><code>.flag-mex</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-fm"></span>
+        </td>
+        <td>Micronesia</td>
+        <td><code>.flag-micronesia</code></td>
+        <td><code>.flag-fm</code></td>
+        <td><code>.flag-fsm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-md"></span>
+        </td>
+        <td>Moldova</td>
+        <td><code>.flag-moldova</code></td>
+        <td><code>.flag-md</code></td>
+        <td><code>.flag-mda</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mc"></span>
+        </td>
+        <td>Monaco</td>
+        <td><code>.flag-monaco</code></td>
+        <td><code>.flag-mc</code></td>
+        <td><code>.flag-mco</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mn"></span>
+        </td>
+        <td>Mongolia</td>
+        <td><code>.flag-mongolia</code></td>
+        <td><code>.flag-mn</code></td>
+        <td><code>.flag-mng</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-me"></span>
+        </td>
+        <td>Montenegro</td>
+        <td><code>.flag-montenegro</code></td>
+        <td><code>.flag-me</code></td>
+        <td><code>.flag-mne</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ms"></span>
+        </td>
+        <td>Montserrat</td>
+        <td><code>.flag-montserrat</code></td>
+        <td><code>.flag-ms</code></td>
+        <td><code>.flag-msr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ma"></span>
+        </td>
+        <td>Morocco</td>
+        <td><code>.flag-morocco</code></td>
+        <td><code>.flag-ma</code></td>
+        <td><code>.flag-mar</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mz"></span>
+        </td>
+        <td>Mozambique</td>
+        <td><code>.flag-mozambique</code></td>
+        <td><code>.flag-mz</code></td>
+        <td><code>.flag-moz</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mn"></span>
+        </td>
+        <td>Myanmar (Burma)</td>
+        <td><code>.flag-myanmar</code> <br><code>.flag-burma</code></td>
+        <td><code>.flag-mn</code></td>
+        <td><code>.flag-mmr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-na"></span>
+        </td>
+        <td>Namibia</td>
+        <td><code>.flag-namibia</code></td>
+        <td><code>.flag-na</code></td>
+        <td><code>.flag-nam</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-nr"></span>
+        </td>
+        <td>Nauru</td>
+        <td><code>.flag-nauru</code></td>
+        <td><code>.flag-nr</code></td>
+        <td><code>.flag-nru</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-np"></span>
+        </td>
+        <td>Nepal</td>
+        <td><code>.flag-nepal</code></td>
+        <td><code>.flag-np</code></td>
+        <td><code>.flag-npl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-nl"></span>
+        </td>
+        <td>Netherlands</td>
+        <td><code>.flag-netherlands</code></td>
+        <td><code>.flag-nl</code></td>
+        <td><code>.flag-nld</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-nz"></span>
+        </td>
+        <td>New Zealand</td>
+        <td><code>.flag-new-zealand</code></td>
+        <td><code>.flag-nz</code></td>
+        <td><code>.flag-nzl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ni"></span>
+        </td>
+        <td>Nicaragua</td>
+        <td><code>.flag-nicaragua</code></td>
+        <td><code>.flag-ni</code></td>
+        <td><code>.flag-nic</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ne"></span>
+        </td>
+        <td>Niger</td>
+        <td><code>.flag-niger</code></td>
+        <td><code>.flag-ne</code></td>
+        <td><code>.flag-ner</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ng"></span>
+        </td>
+        <td>Nigeria</td>
+        <td><code>.flag-nigeria</code></td>
+        <td><code>.flag-ng</code></td>
+        <td><code>.flag-nga</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-nu"></span>
+        </td>
+        <td>Niue</td>
+        <td><code>.flag-niue</code></td>
+        <td><code>.flag-nu</code></td>
+        <td><code>.flag-niu</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-nf"></span>
+        </td>
+        <td>Norfolk Island</td>
+        <td><code>.flag-norfolk-island</code></td>
+        <td><code>.flag-nf</code></td>
+        <td><code>.flag-nfk</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kp"></span>
+        </td>
+        <td>North Korea</td>
+        <td><code>.flag-north-korea</code></td>
+        <td><code>.flag-kp</code></td>
+        <td><code>.flag-prk</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-northern-cyprus"></span>
+        </td>
+        <td>Northern Cyprus</td>
+        <td colspan="3"><code>.flag-northern-cyprus</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-northern-ireland"></span>
+        </td>
+        <td>Northern Ireland</td>
+        <td colspan="3"><code>.flag-northern-ireland</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mk"></span>
+        </td>
+        <td>North Macedonia</td>
+        <td><code>.flag-macedonia</code> <br><code>.flag-north-macedonia</code></td>
+        <td><code>.flag-mk</code></td>
+        <td><code>.flag-mkd</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-mp"></span>
+        </td>
+        <td>Northern Marianas Islands</td>
+        <td><code>.flag-northern-marianas-islands</code></td>
+        <td><code>.flag-mp</code></td>
+        <td><code>.flag-mnp</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-no"></span>
+        </td>
+        <td>Norway</td>
+        <td><code>.flag-norway</code></td>
+        <td><code>.flag-no</code></td>
+        <td><code>.flag-nor</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-om"></span>
+        </td>
+        <td>Oman</td>
+        <td><code>.flag-oman</code></td>
+        <td><code>.flag-om</code></td>
+        <td><code>.flag-omn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ossetia"></span>
+        </td>
+        <td>Ossetia</td>
+        <td colspan="3"><code>.flag-ossetia</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pk"></span>
+        </td>
+        <td>Pakistan</td>
+        <td><code>.flag-pakistan</code></td>
+        <td><code>.flag-pk</code></td>
+        <td><code>.flag-pak</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flagpw"></span>
+        </td>
+        <td>Palau</td>
+        <td><code>.flag-palau</code></td>
+        <td><code>.flag-pw</code></td>
+        <td><code>.flag-plw</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ps"></span>
+        </td>
+        <td>Palestine</td>
+        <td><code>.flag-palestine</code></td>
+        <td><code>.flag-ps</code></td>
+        <td><code>.flag-pse</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pa"></span>
+        </td>
+        <td>Panama</td>
+        <td><code>.flag-panama</code></td>
+        <td><code>.flag-pa</code></td>
+        <td><code>.flag-pan</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pg"></span>
+        </td>
+        <td>Papua New Guinea</td>
+        <td><code>.flag-papua-new-guinea</code></td>
+        <td><code>.flag-pg</code></td>
+        <td><code>.flag-png</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-py"></span>
+        </td>
+        <td>Paraguay</td>
+        <td><code>.flag-paraguay</code></td>
+        <td><code>.flag-py</code></td>
+        <td><code>.flag-pry</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pe"></span>
+        </td>
+        <td>Peru</td>
+        <td><code>.flag-peru</code></td>
+        <td><code>.flag-pe</code></td>
+        <td><code>.flag-per</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ph"></span>
+        </td>
+        <td>Philippines</td>
+        <td><code>.flag-philippines</code></td>
+        <td><code>.flag-ph</code></td>
+        <td><code>.flag-phl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pn"></span>
+        </td>
+        <td>Pitcairn Islands</td>
+        <td><code>.flag-pitcairn</code> <br><code>.flag-pitcairn-islands</code></td>
+        <td><code>.flag-pn</code></td>
+        <td><code>.flag-pcn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pl"></span>
+        </td>
+        <td>Poland</td>
+        <td><code>.flag-poland</code></td>
+        <td><code>.flag-pl</code></td>
+        <td><code>.flag-pol</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pt"></span>
+        </td>
+        <td>Portugal</td>
+        <td><code>.flag-portugal</code></td>
+        <td><code>.flag-pt</code></td>
+        <td><code>.flag-prt</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-pr"></span>
+        </td>
+        <td>Puerto Rico</td>
+        <td><code>.flag-puerto-rico</code></td>
+        <td><code>.flag-pr</code></td>
+        <td><code>.flag-pri</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-qa"></span>
+        </td>
+        <td>Qatar</td>
+        <td><code>.flag-qatar</code></td>
+        <td><code>.flag-qa</code></td>
+        <td><code>.flag-qat</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-rapa-nui"></span>
+        </td>
+        <td>Rapa Nui</td>
+        <td colspan="3"><code>.flag-rapa-nui</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ro"></span>
+        </td>
+        <td>Romania</td>
+        <td><code>.flag-romania</code></td>
+        <td><code>.flag-ro</code></td>
+        <td><code>.flag-rou</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ru"></span>
+        </td>
+        <td>Russia</td>
+        <td><code>.flag-russia</code></td>
+        <td><code>.flag-ru</code></td>
+        <td><code>.flag-rus</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-rw"></span>
+        </td>
+        <td>Rwanda</td>
+        <td><code>.flag-rwanda</code></td>
+        <td><code>.flag-rw</code></td>
+        <td><code>.flag-rwa</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-saba-island"></span>
+        </td>
+        <td>Saba Island</td>
+        <td colspan="3"><code>.flag-saba-island</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kn"></span>
+        </td>
+        <td>Saint Kitts and Nevis</td>
+        <td><code>.flag-saint-kitts-and-nevis</code></td>
+        <td><code>.flag-kn</code></td>
+        <td><code>.flag-kna</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lc"></span>
+        </td>
+        <td>Saint Lucia</td>
+        <td><code>.flag-saint-lucia</code></td>
+        <td><code>.flag-lc</code></td>
+        <td><code>.flag-lca</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ws"></span>
+        </td>
+        <td>Samoa</td>
+        <td><code>.flag-samoa</code></td>
+        <td><code>.flag-ws</code></td>
+        <td><code>.flag-wsm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sm"></span>
+        </td>
+        <td>San Marino</td>
+        <td><code>.flag-san-marino</code></td>
+        <td><code>.flag-sm</code></td>
+        <td><code>.flag-smr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-st"></span>
+        </td>
+        <td>Sao Tome and Prince</td>
+        <td><code>.flag-sao-tome-and-prince</code></td>
+        <td><code>.flag-st</code></td>
+        <td><code>.flag-stp</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sardinia"></span>
+        </td>
+        <td>Sardinia</td>
+        <td colspan="3"><code>.flag-sardinia</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sa"></span>
+        </td>
+        <td>Saudi Arabia</td>
+        <td><code>.flag-saudi-arabia</code></td>
+        <td><code>.flag-sa</code></td>
+        <td><code>.flag-sau</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-scotland"></span>
+        </td>
+        <td>Scotland</td>
+        <td colspan="3"><code>.flag-scotland</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sn"></span>
+        </td>
+        <td>Senegal</td>
+        <td><code>.flag-senegal</code></td>
+        <td><code>.flag-sn</code></td>
+        <td><code>.flag-sen</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-rs"></span>
+        </td>
+        <td>Serbia</td>
+        <td><code>.flag-serbia</code></td>
+        <td><code>.flag-rs</code></td>
+        <td><code>.flag-srb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sc"></span>
+        </td>
+        <td>Seychelles</td>
+        <td><code>.flag-seychelles</code></td>
+        <td><code>.flag-sc</code></td>
+        <td><code>.flag-syc</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sicily"></span>
+        </td>
+        <td>Sicily</td>
+        <td colspan="3"><code>.flag-sicily</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sl"></span>
+        </td>
+        <td>Sierra Leone</td>
+        <td><code>.flag-sierra-leone</code></td>
+        <td><code>.flag-sl</code></td>
+        <td><code>.flag-sle</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sg"></span>
+        </td>
+        <td>Singapore</td>
+        <td><code>.flag-singapore</code></td>
+        <td><code>.flag-sg</code></td>
+        <td><code>.flag-sgp</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sint-eustatius"></span>
+        </td>
+        <td>Sint Eustatius</td>
+        <td colspan="3"><code>.flag-sint-eustatius</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sx"></span>
+        </td>
+        <td>Sint Maarten</td>
+        <td><code>.flag-sint-maarten</code></td>
+        <td><code>.flag-sx</code></td>
+        <td><code>.flag-sxm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sk"></span>
+        </td>
+        <td>Slovakia</td>
+        <td><code>.flag-slovakia</code></td>
+        <td><code>.flag-sk</code></td>
+        <td><code>.flag-svk</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-si"></span>
+        </td>
+        <td>Slovenia</td>
+        <td><code>.flag-slovenia</code></td>
+        <td><code>.flag-si</code></td>
+        <td><code>.flag-svn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sb"></span>
+        </td>
+        <td>Solomon Islands</td>
+        <td><code>.flag-solomon-islands</code></td>
+        <td><code>.flag-sb</code></td>
+        <td><code>.flag-slb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-so"></span>
+        </td>
+        <td>Somalia</td>
+        <td><code>.flag-somalia</code></td>
+        <td><code>.flag-so</code></td>
+        <td><code>.flag-som</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-somaliland"></span>
+        </td>
+        <td>Somaliland</td>
+        <td colspan="3"><code>.flag-somaliland</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-za"></span>
+        </td>
+        <td>South Africa</td>
+        <td><code>.flag-south-africa</code></td>
+        <td><code>.flag-za</code></td>
+        <td><code>.flag-zaf</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-kr"></span>
+        </td>
+        <td>South Korea (Korea)</td>
+        <td><code>.flag-korea</code> <br><code>.flag-south-korea</code></td>
+        <td><code>.flag-kr</code></td>
+        <td><code>.flag-kor</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ss"></span>
+        </td>
+        <td>South Sudan</td>
+        <td><code>.flag-south-sudan</code></td>
+        <td><code>.flag-ss</code></td>
+        <td><code>.flag-ssd</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-es"></span>
+        </td>
+        <td>Spain</td>
+        <td><code>.flag-spain</code></td>
+        <td><code>.flag-es</code></td>
+        <td><code>.flag-esp</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-lk"></span>
+        </td>
+        <td>Sri Lanka</td>
+        <td><code>.flag-sri-lanka</code></td>
+        <td><code>.flag-lk</code></td>
+        <td><code>.flag-lka</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-st-barts"></span>
+        </td>
+        <td>St. Barts</td>
+        <td colspan="3"><code>.flag-st-barts</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-st-vincent-and-the-grenadines"></span>
+        </td>
+        <td>St. Vincent and the Grenadines</td>
+        <td colspan="3"><code>.flag-st-vincent-and-the-grenadines</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sd"></span>
+        </td>
+        <td>Sudan</td>
+        <td><code>.flag-sudan</code></td>
+        <td><code>.flag-sd</code></td>
+        <td><code>.flag-sdn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sr"></span>
+        </td>
+        <td>Suriname</td>
+        <td><code>.flag-suriname</code></td>
+        <td><code>.flag-sr</code></td>
+        <td><code>.flag-sur</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-se"></span>
+        </td>
+        <td>Sweden</td>
+        <td><code>.flag-sweden</code></td>
+        <td><code>.flag-se</code></td>
+        <td><code>.flag-swe</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ch"></span>
+        </td>
+        <td>Switzerland</td>
+        <td><code>.flag-switzerland</code></td>
+        <td><code>.flag-ch</code></td>
+        <td><code>.flag-che</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-sy"></span>
+        </td>
+        <td>Syria</td>
+        <td><code>.flag-syria</code></td>
+        <td><code>.flag-sy</code></td>
+        <td><code>.flag-syr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tw"></span>
+        </td>
+        <td>Taiwan</td>
+        <td><code>.flag-taiwan</code></td>
+        <td><code>.flag-tw</code></td>
+        <td><code>.flag-twn</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tj"></span>
+        </td>
+        <td>Tajikistan</td>
+        <td><code>.flag-tajikistan</code></td>
+        <td><code>.flag-tj</code></td>
+        <td><code>.flag-tjk</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tz"></span>
+        </td>
+        <td>Tanzania</td>
+        <td><code>.flag-tanzania</code></td>
+        <td><code>.flag-tz</code></td>
+        <td><code>.flag-tza</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-th"></span>
+        </td>
+        <td>Thailand</td>
+        <td><code>.flag-thailand</code></td>
+        <td><code>.flag-th</code></td>
+        <td><code>.flag-tha</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tibet"></span>
+        </td>
+        <td>Tibet</td>
+        <td colspan="3"><code>.flag-tibet</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tg"></span>
+        </td>
+        <td>Togo</td>
+        <td><code>.flag-togo</code></td>
+        <td><code>.flag-tg</code></td>
+        <td><code>.flag-tgo</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tk"></span>
+        </td>
+        <td>Tokelau</td>
+        <td><code>.flag-tokelau</code></td>
+        <td><code>.flag-tk</code></td>
+        <td><code>.flag-tkl</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-to"></span>
+        </td>
+        <td>Tonga</td>
+        <td><code>.flag-tonga</code></td>
+        <td><code>.flag-to</code></td>
+        <td><code>.flag-ton</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-transnistria"></span>
+        </td>
+        <td>Transnistria</td>
+        <td colspan="3"><code>.flag-transnistria</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tt"></span>
+        </td>
+        <td>Trinidad and Tobago</td>
+        <td><code>.flag-trinidad-and-tobago</code></td>
+        <td><code>.flag-tt</code></td>
+        <td><code>.flag-tto</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tn"></span>
+        </td>
+        <td>Tunisia</td>
+        <td><code>.flag-tunisia</code></td>
+        <td><code>.flag-tn</code></td>
+        <td><code>.flag-tun</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tr"></span>
+        </td>
+        <td>Turkey</td>
+        <td><code>.flag-turkey</code></td>
+        <td><code>.flag-tr</code></td>
+        <td><code>.flag-tur</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tm"></span>
+        </td>
+        <td>Turkmenistan</td>
+        <td><code>.flag-turkmenistan</code></td>
+        <td><code>.flag-tm</code></td>
+        <td><code>.flag-tkm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tc"></span>
+        </td>
+        <td>Turks and Caicos Islands</td>
+        <td><code>.flag-turks-and-caicos-islands</code></td>
+        <td><code>.flag-tc</code></td>
+        <td><code>.flag-tca</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-tv"></span>
+        </td>
+        <td>Tuvalu</td>
+        <td><code>.flag-tuvalu</code></td>
+        <td><code>.flag-tv</code></td>
+        <td><code>.flag-tuv</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ug"></span>
+        </td>
+        <td>Uganda</td>
+        <td><code>.flag-uganda</code></td>
+        <td><code>.flag-ug</code></td>
+        <td><code>.flag-uga</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ua"></span>
+        </td>
+        <td>Ukraine</td>
+        <td><code>.flag-ukraine</code></td>
+        <td><code>.flag-ua</code></td>
+        <td><code>.flag-ukr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ae"></span>
+        </td>
+        <td>United Arab Emirates</td>
+        <td><code>.flag-united-arab-emirates</code> <br> <code>.flag-uae</code></td>
+        <td><code>.flag-ae</code></td>
+        <td><code>.flag-are</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-gb"></span>
+        </td>
+        <td>United Kingdom (Great Britain)</td>
+        <td><code>.flag-great-britain</code> <br><code>.flag-united-kingdom</code> <br><code>.flag-uk</code></td>
+        <td><code>.flag-gb</code></td>
+        <td><code>.flag-gbr</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-us"></span>
+        </td>
+        <td>United States of America</td>
+        <td><code>.flag-united-states-of-america</code></td>
+        <td><code>.flag-us</code></td>
+        <td><code>.flag-usa</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-uy"></span>
+        </td>
+        <td>Uruguay</td>
+        <td><code>.flag-uruguay</code></td>
+        <td><code>.flag-uy</code></td>
+        <td><code>.flag-ury</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-uz"></span>
+        </td>
+        <td>Uzbekistn</td>
+        <td><code>.flag-uzbekistn</code></td>
+        <td><code>.flag-uz</code></td>
+        <td><code>.flag-uzb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-vu"></span>
+        </td>
+        <td>Vanuatu</td>
+        <td><code>.flag-vanuatu</code></td>
+        <td><code>.flag-vu</code></td>
+        <td><code>.flag-vut</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ve"></span>
+        </td>
+        <td>Venezuela</td>
+        <td><code>.flag-venezuela</code></td>
+        <td><code>.flag-ve</code></td>
+        <td><code>.flag-ven</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-vn"></span>
+        </td>
+        <td>Viet Nam</td>
+        <td><code>.flag-vietnam</code> <br><code>.flag-viet-nam</code></td>
+        <td><code>.flag-vn</code></td>
+        <td><code>.flag-vnm</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-vi"></span>
+        </td>
+        <td>Virgin Islands (U.S.)</td>
+        <td><code>.flag-virgin-islands</code></td>
+        <td><code>.flag-vi</code></td>
+        <td><code>.flag-vir</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-wales"></span>
+        </td>
+        <td>Wales</td>
+        <td><code>.flag-wales</code></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-eh"></span>
+        </td>
+        <td>Western Sahara <br>(Sahrawi Arab Democratic Republic)</td>
+        <td><code>.flag-western-sahara</code> <br><code>.flag-sahrawi-arab-democratic-republic</code></td>
+        <td><code>.flag-eh</code></td>
+        <td><code>.flag-esh</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-ye"></span>
+        </td>
+        <td>Yemen</td>
+        <td><code>.flag-yemen</code></td>
+        <td><code>.flag-ye</code></td>
+        <td><code>.flag-yem</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-zm"></span>
+        </td>
+        <td>Zambia</td>
+        <td><code>.flag-zambia</code></td>
+        <td><code>.flag-zm</code></td>
+        <td><code>.flag-zmb</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-zw"></span>
+        </td>
+        <td>Zimbabwe</td>
+        <td><code>.flag-zimbabwe</code></td>
+        <td><code>.flag-zw</code></td>
+        <td><code>.flag-zwe</code></td>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+        <th colspan="4">
+          Continents
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-africa"></span>
+        </td>
+        <td>Africa</td>
+        <td colspan="3"><code>.flag-africa</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-asia"></span>
+        </td>
+        <td>Asia</td>
+        <td colspan="3"><code>.flag-asia</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-australia-and-oceania"></span>
+        </td>
+        <td>Australia and Oceania</td>
+        <td colspan="3"><code>.flag-australia-and-oceania</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-europe"></span>
+        </td>
+        <td>Europe</td>
+        <td colspan="3"><code>.flag-europe</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-north-america"></span>
+        </td>
+        <td>North America</td>
+        <td colspan="3"><code>.flag-north-america</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-south-america"></span>
+        </td>
+        <td>South America</td>
+        <td colspan="3"><code>.flag-south-america</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-world"></span>
+        </td>
+        <td>World</td>
+        <td colspan="3"><code>.flag-world</code></td>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+        <th colspan="4">
+          Organizations
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-eu"></span>
+        </td>
+        <td>European Union</td>
+        <td><code>.flag-european-union</code></td>
+        <td colspan="2"><code>.flag-eu</code></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-nato"></span>
+        </td>
+        <td>Nato</td>
+        <td><code>.flag-nato</code></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="flag flag-un"></span>
+        </td>
+        <td>United Nations</td>
+        <td><code>.flag-united-nations</code></td>
+        <td colspan="2"><code>.flag-un</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
