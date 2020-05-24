@@ -6,55 +6,81 @@
   width: 20px;
 }
 
-.flag-mauritius {
+.flag-mauritius,
+.flag-mu,
+.flag-mus {
   background-position: 0px 0;
 }
 
-.flag-cyprus {
+.flag-cyprus,
+.flag-cy,
+.flag-cyp {
   background-position: -20px 0;
 }
 
-.flag-austria {
+.flag-austria,
+.flag-at,
+.flag-aut {
   background-position: -40px 0;
 }
 
-.flag-oman {
+.flag-oman,
+.flag-om,
+.flag-omn {
   background-position: -60px 0;
 }
 
-.flag-ethiopia {
+.flag-ethiopia,
+.flag-et,
+.flag-eth {
   background-position: -80px 0;
 }
 
-.flag-tanzania {
+.flag-tanzania,
+.flag-tz,
+.flag-tza {
   background-position: -100px 0;
 }
 
-.flag-estonia {
+.flag-estonia,
+.flag-ee,
+.flag-est {
   background-position: -120px 0;
 }
 
-.flag-nicaragua {
+.flag-nicaragua,
+.flag-ni,
+.flag-nic {
   background-position: -140px 0;
 }
 
-.flag-uganda {
+.flag-uganda,
+.flag-ug,
+.flag-uga {
   background-position: -160px 0;
 }
 
-.flag-slovenia {
+.flag-slovenia,
+.flag-si,
+.flag-svn {
   background-position: -180px 0;
 }
 
-.flag-zimbabwe {
+.flag-zimbabwe,
+.flag-zw,
+.flag-zwe {
   background-position: -200px 0;
 }
 
-.flag-sao-tome-and-prince {
+.flag-sao-tome-and-prince,
+.flag-st,
+.flag-stp {
   background-position: -220px 0;
 }
 
-.flag-italy {
+.flag-italy,
+.flag-it,
+.flag-ita {
   background-position: -240px 0;
 }
 
@@ -62,19 +88,27 @@
   background-position: -260px 0;
 }
 
-.flag-el-salvador {
+.flag-el-salvador,
+.flag-sv,
+.flag-slv {
   background-position: -280px 0;
 }
 
-.flag-nepal {
+.flag-nepal,
+.flag-np,
+.flag-npl {
   background-position: 0px -14px;
 }
 
-.flag-christmas-island {
+.flag-christmas-island,
+.flag-cx,
+.flag-cxr {
   background-position: -20px -14px;
 }
 
-.flag-lebanon {
+.flag-lebanon,
+.flag-lb,
+.flag-lbn {
   background-position: -40px -14px;
 }
 
@@ -82,43 +116,63 @@
   background-position: -60px -14px;
 }
 
-.flag-iraq {
+.flag-iraq,
+.flag-iq,
+.flag-irq {
   background-position: -80px -14px;
 }
 
-.flag-cook-islands {
+.flag-cook-islands,
+.flag-ck,
+.flag-cok {
   background-position: -100px -14px;
 }
 
-.flag-syria {
+.flag-syria,
+.flag-sy,
+.flag-syr {
   background-position: -120px -14px;
 }
 
-.flag-cocos-islands {
+.flag-cocos-islands,
+.flag-cc,
+.flag-cck {
   background-position: -140px -14px;
 }
 
-.flag-honduras {
+.flag-honduras,
+.flag-hn,
+.flag-hnd {
   background-position: -160px -14px;
 }
 
-.flag-anguilla {
+.flag-anguilla,
+.flag-ai,
+.flag-aia {
   background-position: -180px -14px;
 }
 
-.flag-american-samoa {
+.flag-american-samoa,
+.flag-as,
+.flag-asm {
   background-position: -200px -14px;
 }
 
-.flag-puerto-rico {
+.flag-puerto-rico,
+.flag-pr,
+.flag-pri {
   background-position: -220px -14px;
 }
 
-.flag-comoros {
+.flag-comoros,
+.flag-km,
+.flag-com {
   background-position: -240px -14px;
 }
 
-.flag-north-korea {
+.flag-north-korea,
+.flag-kp,
+.flag-prk {
   background-position: -260px -14px;
 }
 
@@ -126,67 +180,99 @@
   background-position: -280px -14px;
 }
 
-.flag-zambia {
+.flag-zambia,
+.flag-zm,
+.flag-zmb {
   background-position: 0px -28px;
 }
 
-.flag-saint-kitts-and-nevis {
+.flag-saint-kitts-and-nevis,
+.flag-kn,
+.flag-kna {
   background-position: -20px -28px;
 }
 
-.flag-china {
+.flag-china,
+.flag-cn,
+.flag-chn {
   background-position: -40px -28px;
 }
 
-.flag-luxembourg {
+.flag-luxembourg,
+.flag-lu,
+.flag-lux {
   background-position: -60px -28px;
 }
 
-.flag-central-african-republic {
+.flag-central-african-republic,
+.flag-cf,
+.flag-caf {
   background-position: -80px -28px;
 }
 
-.flag-jamaica {
+.flag-jamaica,
+.flag-jm,
+.flag-jam {
   background-position: -100px -28px;
 }
 
-.flag-cape-verde {
+.flag-cape-verde,
+.flag-cv,
+.flag-cpv {
   background-position: -120px -28px;
 }
 
-.flag-monaco {
+.flag-monaco,
+.flag-mc,
+.flag-mco {
   background-position: -140px -28px;
 }
 
-.flag-bhutan {
+.flag-bhutan,
+.flag-bt,
+.flag-btn {
   background-position: -160px -28px;
 }
 
-.flag-paraguay {
+.flag-paraguay,
+.flag-py,
+.flag-pry {
   background-position: -180px -28px;
 }
 
-.flag-aruba {
+.flag-aruba,
+.flag-aw,
+.flag-abw {
   background-position: -200px -28px;
 }
 
-.flag-montserrat {
+.flag-montserrat,
+.flag-ms,
+.flag-msr {
   background-position: -220px -28px;
 }
 
-.flag-latvia {
+.flag-latvia,
+.flag-lv,
+.flag-lva {
   background-position: -240px -28px;
 }
 
-.flag-andorra {
+.flag-andorra,
+.flag-an,
+.flag-and {
   background-position: -260px -28px;
 }
 
-.flag-micronesia {
+.flag-micronesia,
+.flag-fm,
+.flag-fsm {
   background-position: -280px -28px;
 }
 
-.flag-dominican-republic {
+.flag-dominican-republic,
+.flag-do,
+.flag-dom {
   background-position: 0px -42px;
 }
 
@@ -194,15 +280,21 @@
   background-position: -20px -42px;
 }
 
-.flag-tunisia {
+.flag-tunisia,
+.flag-tn,
+.flag-tun {
   background-position: -40px -42px;
 }
 
-.flag-mauritania {
+.flag-mauritania,
+.flag-mr,
+.flag-mrt {
   background-position: -60px -42px;
 }
 
-.flag-cayman-islands {
+.flag-cayman-islands,
+.flag-ky,
+.flag-cym {
   background-position: -80px -42px;
 }
 
@@ -210,7 +302,9 @@
   background-position: -100px -42px;
 }
 
-.flag-ghana {
+.flag-ghana,
+.flag-gh,
+.flag-gha {
   background-position: -120px -42px;
 }
 
@@ -222,23 +316,34 @@
   background-position: -160px -42px;
 }
 
-.flag-guinea-bissau {
+.flag-guinea-bissau,
+.flag-gw,
+.flag-gnb {
   background-position: -180px -42px;
 }
 
-.flag-burundi {
+.flag-burundi,
+.flag-bi,
+.flag-bdi {
   background-position: -200px -42px;
 }
 
-.flag-myanmar {
+.flag-myanmar,
+.flag-burma,
+.flag-mn,
+.flag-mmr {
   background-position: -220px -42px;
 }
 
-.flag-gabon {
+.flag-gabon,
+.flag-ga,
+.flag-gab {
   background-position: -240px -42px;
 }
 
-.flag-benin {
+.flag-benin,
+.flag-bj,
+.flag-ben {
   background-position: -260px -42px;
 }
 
@@ -246,43 +351,63 @@
   background-position: -280px -42px;
 }
 
-.flag-namibia {
+.flag-namibia,
+.flag-na,
+.flag-nam {
   background-position: 0px -56px;
 }
 
-.flag-japan {
+.flag-japan,
+.flag-jp,
+.flag-jpn {
   background-position: -20px -56px;
 }
 
-.flag-lithuania {
+.flag-lithuania,
+.flag-lt,
+.flag-ltu {
   background-position: -40px -56px;
 }
 
-.flag-eritrea {
+.flag-eritrea,
+.flag-er,
+.flag-eri {
   background-position: -60px -56px;
 }
 
-.flag-chad {
+.flag-chad,
+.flag-td,
+.flag-tcd {
   background-position: -80px -56px;
 }
 
-.flag-kenya {
+.flag-kenya,
+.flag-ke,
+.flag-ken {
   background-position: -100px -56px;
 }
 
-.flag-djibouti {
+.flag-djibouti,
+.flag-dj,
+.flag-dji {
   background-position: -120px -56px;
 }
 
-.flag-british-indian-ocean-territory {
+.flag-british-indian-ocean-territory,
+.flag-io,
+.flag-iot {
   background-position: -140px -56px;
 }
 
-.flag-tuvalu {
+.flag-tuvalu,
+.flag-tv,
+.flag-tuv {
   background-position: -160px -56px;
 }
 
-.flag-serbia {
+.flag-serbia,
+.flag-rs,
+.flag-srb {
   background-position: -180px -56px;
 }
 
@@ -290,27 +415,39 @@
   background-position: -200px -56px;
 }
 
-.flag-togo {
+.flag-togo,
+.flag-tg,
+.flag-tgo {
   background-position: -220px -56px;
 }
 
-.flag-kazakhstan {
+.flag-kazakhstan,
+.flag-kz,
+.flag-kaz {
   background-position: -240px -56px;
 }
 
-.flag-antigua-and-barbuda {
+.flag-antigua-and-barbuda,
+.flag-ag,
+.flag-atg {
   background-position: -260px -56px;
 }
 
-.flag-suriname {
+.flag-suriname,
+.flag-sr,
+.flag-sur {
   background-position: -280px -56px;
 }
 
-.flag-jordan {
+.flag-jordan,
+.flag-jo,
+.flag-jor {
   background-position: 0px -70px;
 }
 
-.flag-belize {
+.flag-belize,
+.flag-bz,
+.flag-blz {
   background-position: -20px -70px;
 }
 
@@ -318,55 +455,80 @@
   background-position: -40px -70px;
 }
 
-.flag-iceland {
+.flag-iceland,
+.flag-is,
+.flag-isl {
   background-position: -60px -70px;
 }
 
-.flag-bermuda {
+.flag-bermuda,
+.flag-bm,
+.flag-bmu {
   background-position: -80px -70px;
 }
 
-.flag-united-nations {
+.flag-united-nations,
+.flag-un {
   background-position: -100px -70px;
 }
 
-.flag-somalia {
+.flag-somalia,
+.flag-so,
+.flag-som {
   background-position: -120px -70px;
 }
 
-.flag-barbados {
+.flag-barbados,
+.flag-bb,
+.flag-brb {
   background-position: -140px -70px;
 }
 
-.flag-solomon-islands {
+.flag-solomon-islands,
+.flag-sb,
+.flag-slb {
   background-position: -160px -70px;
 }
 
-.flag-nigeria {
+.flag-nigeria,
+.flag-ng,
+.flag-nga {
   background-position: -180px -70px;
 }
 
-.flag-aland-islands {
+.flag-aland-islands,
+.flag-ax,
+.flag-ala {
   background-position: -200px -70px;
 }
 
-.flag-uruguay {
+.flag-uruguay,
+.flag-uy,
+.flag-ury {
   background-position: -220px -70px;
 }
 
-.flag-sint-maarten {
+.flag-sint-maarten,
+.flag-sx,
+.flag-sxm {
   background-position: -240px -70px;
 }
 
-.flag-burkina-faso {
+.flag-burkina-faso,
+.flag-bf,
+.flag-bfa {
   background-position: -260px -70px;
 }
 
-.flag-slovakia {
+.flag-slovakia,
+.flag-sk,
+.flag-svk {
   background-position: -280px -70px;
 }
 
-.flag-sierra-leone {
+.flag-sierra-leone,
+.flag-sl,
+.flag-sle {
   background-position: 0px -84px;
 }
 
@@ -375,31 +537,46 @@
 }
 
 .flag-korea,
-.flag-south-korea {
+.flag-south-korea,
+.flag-kr,
+.flag-kor {
   background-position: -40px -84px;
 }
 
-.flag-pitcairn-islands {
+.flag-pitcairn,
+.flag-pitcairn-islands,
+.flag-pn,
+.flag-pcn {
   background-position: -60px -84px;
 }
 
-.flag-mozambique {
+.flag-mozambique,
+.flag-mz,
+.flag-moz {
   background-position: -80px -84px;
 }
 
-.flag-san-marino {
+.flag-san-marino,
+.flag-sm,
+.flag-smr {
   background-position: -100px -84px;
 }
 
-.flag-guatemala {
+.flag-guatemala,
+.flag-gt,
+.flag-gtm {
   background-position: -120px -84px;
 }
 
-.flag-albania {
+.flag-albania,
+.flag-al,
+.flag-alb {
   background-position: -140px -84px;
 }
 
-.flag-pakistan {
+.flag-pakistan,
+.flag-pk,
+.flag-pak {
   background-position: -160px -84px;
 }
 
@@ -411,83 +588,123 @@
   background-position: -200px -84px;
 }
 
-.flag-marshall-island {
+.flag-marshall-islands,
+.flag-mh,
+.flag-mhl {
   background-position: -220px -84px;
 }
 
-.flag-ecuador {
+.flag-ecuador,
+.flag-ec,
+.flag-ecu {
   background-position: -240px -84px;
 }
 
-.flag-cameroon {
+.flag-cameroon,
+.flag-cm,
+.flag-cmr {
   background-position: -260px -84px;
 }
 
-.flag-panama {
+.flag-panama,
+.flag-pa,
+.flag-pan {
   background-position: -280px -84px;
 }
 
-.flag-kuwait {
+.flag-kuwait,
+.flag-kw,
+.flag-kwt {
   background-position: 0px -98px;
 }
 
-.flag-armenia {
+.flag-armenia,
+.flag-am,
+.flag-arm {
   background-position: -20px -98px;
 }
 
-.flag-romania {
+.flag-romania,
+.flag-ro,
+.flag-rou {
   background-position: -40px -98px;
 }
 
-.flag-guinea {
+.flag-guinea,
+.flag-gn,
+.flag-gin {
   background-position: -60px -98px;
 }
 
-.flag-afghanistan {
+.flag-afghanistan,
+.flag-af,
+.flag-afg {
   background-position: -80px -98px;
 }
 
-.flag-laos {
+.flag-laos,
+.flag-la,
+.flag-lao {
   background-position: -100px -98px;
 }
 
-.flag-greenland {
+.flag-greenland,
+.flag-gl,
+.flag-grl {
   background-position: -120px -98px;
 }
 
-.flag-british-virgin-islands {
+.flag-british-virgin-islands,
+.flag-vg,
+.flag-vgb {
   background-position: -140px -98px;
 }
 
-.flag-hungary {
+.flag-hungary,
+.flag-hu,
+.flag-hun {
   background-position: -160px -98px;
 }
 
-.flag-curacao {
+.flag-curacao,
+.flag-cw,
+.flag-cuw {
   background-position: -180px -98px;
 }
 
-.flag-angola {
+.flag-angola,
+.flag-ao,
+.flag-ago {
   background-position: -200px -98px;
 }
 
-.flag-malasya {
+.flag-malasya,
+.flag-my,
+.flag-mys {
   background-position: -220px -98px;
 }
 
-.flag-brunei {
+.flag-brunei,
+.flag-bn,
+.flag-brn {
   background-position: -240px -98px;
 }
 
-.flag-bahamas {
+.flag-bahamas,
+.flag-bs,
+.flag-bhs {
   background-position: -260px -98px;
 }
 
-.flag-new-zealand {
+.flag-new-zealand,
+.flag-nz,
+.flag-nzl {
   background-position: -280px -98px;
 }
 
-.flag-faroe-islands {
+.flag-faroe-islands,
+.flag-fo,
+.flag-fro {
   background-position: 0px -112px;
 }
 
@@ -496,23 +713,33 @@
 }
 
 .flag-the-holy-see,
-.flag-vatican-city {
+.flag-vatican-city,
+.flag-va,
+.flag-vat {
   background-position: -40px -112px;
 }
 
-.flag-finland {
+.flag-finland,
+.flag-fi,
+.flag-fin {
   background-position: -60px -112px;
 }
 
-.flag-botswana {
+.flag-botswana,
+.flag-bw,
+.flag-bwa {
   background-position: -80px -112px;
 }
 
-.flag-sri-lanka {
+.flag-sri-lanka,
+.flag-lk,
+.flag-lka {
   background-position: -100px -112px;
 }
 
-.flag-spain {
+.flag-spain,
+.flag-es,
+.flag-esp {
   background-position: -120px -112px;
 }
 
@@ -524,47 +751,70 @@
   background-position: -160px -112px;
 }
 
-.flag-chile {
+.flag-chile,
+.flag-cl,
+.flag-chl {
   background-position: -180px -112px;
 }
 
-.flag-bosnia-and-herzegovina {
+.flag-bosnia-and-herzegovina,
+.flag-ba,
+.flag-bih {
   background-position: -200px -112px;
 }
 
-.flag-saudi-arabia {
+.flag-saudi-arabia,
+.flag-sa,
+.flag-sau {
   background-position: -220px -112px;
 }
 
-.flag-liechtenstein {
+.flag-liechtenstein,
+.flag-li,
+.flag-lie {
   background-position: -240px -112px;
 }
 
-.flag-belarus {
+.flag-belarus,
+.flag-by,
+.flag-blr {
   background-position: -260px -112px;
 }
 
-.flag-iran {
+.flag-iran,
+.flag-ir,
+.flag-irn {
   background-position: -280px -112px;
 }
 
-.flag-fiji {
+.flag-fiji,
+.flag-fj,
+.flag-fji {
   background-position: 0px -126px;
 }
 
-.flag-bahrain {
+.flag-bahrain,
+.flag-bh,
+.flag-bhr {
   background-position: -20px -126px;
 }
 
-.flag-venezuela {
+.flag-venezuela,
+.flag-ve,
+.flag-ven {
   background-position: -40px -126px;
 }
 
-.flag-east-timor {
+.flag-timor-leste,
+.flag-east-timor,
+.flag-tl,
+.flag-tls {
   background-position: -60px -126px;
 }
 
-.flag-azerbaijan {
+.flag-azerbaijan,
+.flag-az,
+.flag-aze {
   background-position: -80px -126px;
 }
 
@@ -572,23 +822,33 @@
   background-position: -100px -126px;
 }
 
-.flag-norway {
+.flag-norway,
+.flag-no,
+.flag-nor {
   background-position: -120px -126px;
 }
 
-.flag-algeria {
+.flag-algeria,
+.flag-dz,
+.flag-dza {
   background-position: -140px -126px;
 }
 
-.flag-ukraine {
+.flag-ukraine,
+.flag-ua,
+.flag-ukr {
   background-position: -160px -126px;
 }
 
-.flag-gambia {
+.flag-gambia,
+.flag-gm,
+.flag-gmb {
   background-position: -180px -126px;
 }
 
-.flag-bangladesh {
+.flag-bangladesh,
+.flag-bd,
+.flag-bgd {
   background-position: -200px -126px;
 }
 
@@ -597,93 +857,138 @@
 }
 
 .flag-czechia,
-.flag-czech-republic {
+.flag-czech-republic,
+.flag-cz,
+.flag-cze {
   background-position: -240px -126px;
 }
 
-.flag-bolivia {
+.flag-bolivia,
+.flag-bo,
+.flag-bol {
   background-position: -260px -126px;
 }
 
-.flag-united-arab-emirates {
+.flag-united-arab-emirates,
+.flag-uae,
+.flag-ae,
+.flag-are {
   background-position: -280px -126px;
 }
 
-.flag-kyrgyzstan {
+.flag-kyrgyzstan,
+.flag-kg,
+.flag-kgz {
   background-position: 0px -140px;
 }
 
-.flag-cuba {
+.flag-cuba,
+.flag-cu,
+.flag-cub {
   background-position: -20px -140px;
 }
 
 .flag-eswatini,
-.flag-swaziland {
+.flag-swaziland,
+.flag-sz,
+.flag-swz {
   background-position: -40px -140px;
 }
 
-.flag-israel {
+.flag-israel,
+.flag-il,
+.flag-isr {
   background-position: -60px -140px;
 }
 
-.flag-costa-rica {
+.flag-costa-rica,
+.flag-cr,
+.flag-cri {
   background-position: -80px -140px;
 }
 
-.flag-congo {
+.flag-congo,
+.flag-cg,
+.flag-cog {
   background-position: -100px -140px;
 }
 
-.flag-egypt {
+.flag-egypt,
+.flag-eg,
+.flag-egy {
   background-position: -120px -140px;
 }
 
-.flag-cambodia {
+.flag-cambodia,
+.flag-kh,
+.flag-khm {
   background-position: -140px -140px;
 }
 
-.flag-northern-marianas-islands {
+.flag-northern-marianas-islands,
+.flag-mp,
+.flag-mnp {
   background-position: -160px -140px;
 }
 
 .flag-cote-d-ivoire,
-.flag-ivory-coast {
+.flag-ivory-coast,
+.flag-ci,
+.flag-civ {
   background-position: -180px -140px;
 }
 
-.flag-germany {
+.flag-germany,
+.flag-de,
+.flag-deu {
   background-position: -200px -140px;
 }
 
-.flag-papua-new-guinea {
+.flag-papua-new-guinea,
+.flag-pg,
+.flag-png {
   background-position: -220px -140px;
 }
 
-.flag-croatia {
+.flag-croatia,
+.flag-hr,
+.flag-hrv {
   background-position: -240px -140px;
 }
 
-.flag-belgium {
+.flag-belgium,
+.flag-be,
+.flag-bel {
   background-position: -260px -140px;
 }
 
-.flag-morocco {
+.flag-morocco,
+.flag-ma,
+.flag-mar {
   background-position: -280px -140px;
 }
 
-.flag-macao {
+.flag-macao,
+.flag-mo,
+.flag-mac {
   background-position: 0px -154px;
 }
 
-.flag-bulgaria {
+.flag-bulgaria,
+.flag-bg,
+.flag-bgr {
   background-position: -20px -154px;
 }
 
-.flag-liberia {
+.flag-liberia,
+.flag-lr,
+.flag-lbr {
   background-position: -40px -154px;
 }
 
-.flag-greece {
+.flag-greece,
+.flag-gr,
+.flag-grc {
   background-position: -60px -154px;
 }
 
@@ -691,15 +996,21 @@
   background-position: -80px -154px;
 }
 
-.flag-st-lucia {
+.flag-saint-lucia,
+.flag-lc,
+.flag-lca {
   background-position: -100px -154px;
 }
 
-.flag-mali {
+.flag-mali,
+.flag-ml,
+.flag-mli {
   background-position: -120px -154px;
 }
 
-.flag-denmark {
+.flag-denmark,
+.flag-dk,
+.flag-dnk {
   background-position: -140px -154px;
 }
 
@@ -707,87 +1018,129 @@
   background-position: -160px -154px;
 }
 
-.flag-lesotho {
+.flag-lesotho,
+.flag-ls,
+.flag-lso {
   background-position: -180px -154px;
 }
 
-.flag-colombia {
+.flag-colombia,
+.flag-co,
+.flag-col {
   background-position: -200px -154px;
 }
 
-.flag-palau {
+.flag-palau,
+.flag-pw,
+.flag-plw {
   background-position: -220px -154px;
 }
 
-.flag-ireland {
+.flag-ireland,
+.flag-ie,
+.flag-irl {
   background-position: -240px -154px;
 }
 
-.flag-french-polynesia {
+.flag-french-polynesia,
+.flag-pf,
+.flag-pyf {
   background-position: -260px -154px;
 }
 
-.flag-trinidad-and-tobago {
+.flag-trinidad-and-tobago,
+.flag-tt,
+.flag-tto {
   background-position: -280px -154px;
 }
 
-.flag-niue {
+.flag-niue,
+.flag-nu,
+.flag-niu {
   background-position: 0px -168px;
 }
 
-.flag-hong-kong {
+.flag-hong-kong,
+.flag-hk,
+.flag-hkg {
   background-position: -20px -168px;
 }
 
-.flag-sweden {
+.flag-sweden,
+.flag-se,
+.flag-swe {
   background-position: -40px -168px;
 }
 
-.flag-haiti {
+.flag-haiti,
+.flag-ht,
+.flag-hti {
   background-position: -60px -168px;
 }
 
-.flag-dominica {
+.flag-dominica,
+.flag-dm,
+.flag-dma {
   background-position: -80px -168px;
 }
 
-.flag-vanuatu {
+.flag-vanuatu,
+.flag-vu,
+.flag-vut {
   background-position: -100px -168px;
 }
 
-.flag-peru {
+.flag-peru,
+.flag-pe,
+.flag-per {
   background-position: -120px -168px;
 }
 
-.flag-equatorial-guinea {
+.flag-equatorial-guinea,
+.flag-gq,
+.flag-gnq {
   background-position: -140px -168px;
 }
 
-.flag-uzbekistn {
+.flag-uzbekistn,
+.flag-uz,
+.flag-uzb {
   background-position: -160px -168px;
 }
 
-.flag-tonga {
+.flag-tonga,
+.flag-to,
+.flag-ton {
   background-position: -180px -168px;
 }
 
-.flag-philippines {
+.flag-philippines,
+.flag-ph,
+.flag-phl {
   background-position: -200px -168px;
 }
 
-.flag-norfolk-island {
+.flag-norfolk-island,
+.flag-nf,
+.flag-nfk {
   background-position: -220px -168px;
 }
 
-.flag-malta {
+.flag-malta,
+.flag-mt,
+.flag-mlt {
   background-position: -240px -168px;
 }
 
-.flag-france {
+.flag-france,
+.flag-fr,
+.flag-fra {
   background-position: -260px -168px;
 }
 
-.flag-tajikistan {
+.flag-tajikistan,
+.flag-tj,
+.flag-tjk {
   background-position: -280px -168px;
 }
 
@@ -795,76 +1148,113 @@
   background-position: 0px -182px;
 }
 
-.flag-argentina {
+.flag-argentina,
+.flag-ar,
+.flag-arg {
   background-position: -20px -182px;
 }
 
-.flag-sudan {
+.flag-sudan,
+.flag-ss,
+.flag-ssd {
   background-position: -40px -182px;
 }
 
-.flag-south-africa {
+.flag-south-africa,
+.flag-za,
+.flag-zaf {
   background-position: -60px -182px;
 }
 
-.flag-martinique {
+.flag-martinique,
+.flag-mq,
+.flag-mtq {
   background-position: -80px -182px;
 }
 
-.flag-taiwan {
+.flag-taiwan,
+.flag-tw,
+.flag-twn {
   background-position: -100px -182px;
 }
 
-.flag-sahrawi-arab-democratic-republic {
+.flag-western-sahara,
+.flag-sahrawi-arab-democratic-republic,
+.flag-eh,
+.flag-esh {
   background-position: -120px -182px;
 }
 
-.flag-guernsey {
+.flag-guernsey,
+.flag-gg,
+.flag-ggy {
   background-position: -140px -182px;
 }
 
-.flag-switzerland {
+.flag-switzerland,
+.flag-ch,
+.flag-che {
   background-position: -160px -182px;
 }
 
-.flag-rwanda {
+.flag-rwanda,
+.flag-rw,
+.flag-rwa {
   background-position: -180px -182px;
 }
 
-.flag-guam {
+.flag-guam,
+.flag-gu,
+.flag-gum {
   background-position: -200px -182px;
 }
 
-.flag-palestine {
+.flag-palestine,
+.flag-ps,
+.flag-pse {
   background-position: -220px -182px;
 }
 
-.flag-indonesia {
+.flag-indonesia,
+.flag-id,
+.flag-idn {
   background-position: -240px -182px;
 }
 
-.flag-grenada {
+.flag-grenada,
+.flag-gd,
+.flag-grd {
   background-position: -260px -182px;
 }
 
-.flag-poland {
+.flag-poland,
+.flag-pl,
+.flag-pol {
   background-position: -280px -182px;
 }
 
-.flag-moldova {
+.flag-moldova,
+.flag-md,
+.flag-mda {
   background-position: 0px -196px;
 }
 
-.flag-gibraltar {
+.flag-gibraltar,
+.flag-gi,
+.flag-gib {
   background-position: -20px -196px;
 }
 
-.flag-malawi {
+.flag-malawi,
+.flag-mw,
+.flag-mwi {
   background-position: -40px -196px;
 }
 
 .flag-falkland-islands,
-.flag-malvinas {
+.flag-malvinas,
+.flag-fk,
+.flag-flk {
   background-position: -60px -196px;
 }
 
@@ -872,63 +1262,94 @@
   background-position: -80px -196px;
 }
 
-.flag-virgin-islands {
+.flag-virgin-islands,
+.flag-vi,
+.flag-vir {
   background-position: -100px -196px;
 }
 
-.flag-turkey {
+.flag-turkey,
+.flag-tr,
+.flag-tur {
   background-position: -120px -196px;
 }
 
-.flag-isle-of-man {
+.flag-isle-of-man,
+.flag-im,
+.flag-imn {
   background-position: -140px -196px;
 }
 
-.flag-vietnam {
+.flag-vietnam,
+.flag-viet-nam,
+.flag-vn,
+.flag-vnm {
   background-position: -160px -196px;
 }
 
+.flag-united-states-of-america,
+.flag-us,
 .flag-usa {
   background-position: -180px -196px;
 }
 
-.flag-niger {
+.flag-niger,
+.flag-ne,
+.flag-ner {
   background-position: -200px -196px;
 }
 
-.flag-turks-and-caicos {
+.flag-turks-and-caicos-islands,
+.flag-tc,
+.flag-tca {
   background-position: -220px -196px;
 }
 
-.flag-portugal {
+.flag-portugal,
+.flag-pt,
+.flag-prt {
   background-position: -240px -196px;
 }
 
-.flag-maldives {
+.flag-maldives,
+.flag-mv,
+.flag-mdv {
   background-position: -260px -196px;
 }
 
-.flag-senegal {
+.flag-senegal,
+.flag-sn,
+.flag-sen {
   background-position: -280px -196px;
 }
 
-.flag-nauru {
+.flag-nauru,
+.flag-nr,
+.flag-nru {
   background-position: 0px -210px;
 }
 
-.flag-turkmenistan {
+.flag-turkmenistan,
+.flag-tm,
+.flag-tkm {
   background-position: -20px -210px;
 }
 
-.flag-singapore {
+.flag-singapore,
+.flag-sg,
+.flag-sgp {
   background-position: -40px -210px;
 }
 
-.flag-libya {
+.flag-libya,
+.flag-ly,
+.flag-lby {
   background-position: -60px -210px;
 }
 
-.flag-yemen {
+.flag-yemen,
+.flag-ye,
+.flag-yem {
   background-position: -80px -210px;
 }
 
@@ -936,27 +1357,40 @@
   background-position: -100px -210px;
 }
 
-.flag-australia {
+.flag-australia,
+.flag-au,
+.flag-aus {
   background-position: -120px -210px;
 }
 
-.flag-tokelau {
+.flag-tokelau,
+.flag-tk,
+.flag-tkl {
   background-position: -140px -210px;
 }
 
-.flag-republic-of-macedonia {
+.flag-macedonia,
+.flag-north-macedonia,
+.flag-mk,
+.flag-mkd {
   background-position: -160px -210px;
 }
 
-.flag-netherlands {
+.flag-netherlands,
+.flag-nl,
+.flag-nld {
   background-position: -180px -210px;
 }
 
-.flag-thailand {
+.flag-thailand,
+.flag-th,
+.flag-tha {
   background-position: -200px -210px;
 }
 
-.flag-montenegro {
+.flag-montenegro,
+.flag-me,
+.flag-mne {
   background-position: -220px -210px;
 }
 
@@ -968,23 +1402,33 @@
   background-position: -260px -210px;
 }
 
-.flag-madagascar {
+.flag-madagascar,
+.flag-mg,
+.flag-mdg {
   background-position: -280px -210px;
 }
 
-.flag-canada {
+.flag-canada,
+.flag-ca,
+.flag-can {
   background-position: 0px -224px;
 }
 
-.flag-south-sudan {
+.flag-south-sudan,
+.flag-ss,
+.flag-ssd {
   background-position: -20px -224px;
 }
 
-.flag-jersey {
+.flag-jersey,
+.flag-je,
+.flag-jey {
   background-position: -40px -224px;
 }
 
-.flag-india {
+.flag-india,
+.flag-in,
+.flag-ind {
   background-position: -60px -224px;
 }
 
@@ -992,11 +1436,15 @@
   background-position: -80px -224px;
 }
 
-.flag-russia {
+.flag-russia,
+.flag-ru,
+.flag-rus {
   background-position: -100px -224px;
 }
 
-.flag-democratic-republic-of-congo {
+.flag-democratic-republic-of-congo,
+.flag-cd,
+.flag-cod {
   background-position: -120px -224px;
 }
 
@@ -1004,15 +1452,21 @@
   background-position: -140px -224px;
 }
 
-.flag-samoa {
+.flag-samoa,
+.flag-ws,
+.flag-wsm {
   background-position: -160px -224px;
 }
 
-.flag-mexico {
+.flag-mexico,
+.flag-mx,
+.flag-mex {
   background-position: -180px -224px;
 }
 
-.flag-seychelles {
+.flag-seychelles,
+.flag-sc,
+.flag-syc {
   background-position: -200px -224px;
 }
 
@@ -1020,11 +1474,15 @@
   background-position: -220px -224px;
 }
 
-.flag-brazil {
+.flag-brazil,
+.flag-br,
+.flag-bra {
   background-position: -240px -224px;
 }
 
-.flag-georgia {
+.flag-georgia,
+.flag-ge,
+.flag-geo {
   background-position: -260px -224px;
 }
 
@@ -1032,19 +1490,28 @@
   background-position: -280px -224px;
 }
 
-.flag-mongolia {
+.flag-mongolia,
+.flag-mn,
+.flag-mng {
   background-position: 0px -238px;
 }
 
-.flag-european-union {
+.flag-european-union,
+.flag-eu {
   background-position: -20px -238px;
 }
 
-.flag-united-kingdom {
+.flag-great-britain,
+.flag-united-kingdom,
+.flag-uk,
+.flag-gb,
+.flag-gbr {
   background-position: -40px -238px;
 }
 
-.flag-kiribati {
+.flag-kiribati,
+.flag-ki,
+.flag-kir {
   background-position: -60px -238px;
 }
 
@@ -1060,30 +1527,36 @@
   background-position: -120px -238px;
 }
 
-.flag-world {
+.flag-qatar,
+.flag-qa,
+.flag-qat {
   background-position: -140px -238px;
 }
 
-.flag-africa {
+.flag-world {
   background-position: -160px -238px;
 }
 
-.flag-north-america {
+.flag-africa {
   background-position: -180px -238px;
 }
 
-.flag-south-america {
+.flag-north-america {
   background-position: -200px -238px;
 }
 
-.flag-australia-and-oceania {
+.flag-south-america {
   background-position: -220px -238px;
 }
 
-.flag-europe {
+.flag-australia-and-oceania {
   background-position: -240px -238px;
 }
 
-.flag-asia {
+.flag-europe {
   background-position: -260px -238px;
+}
+
+.flag-asia {
+  background-position: -280px -238px;
 }

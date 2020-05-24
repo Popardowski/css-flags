@@ -1,4 +1,4 @@
-T# CSS Flags
+# CSS Flags
 
 Flags size 20 x 14 px - retina ready sprite image.
 
@@ -6,7 +6,7 @@ Flags size 20 x 14 px - retina ready sprite image.
 
 ### List of countries
 
-| Country | flag name class | ISO code |  |
+| Country | flag name class | ISO code alpha 2 | … alpha 3 |
 | :--- | :--- | :--- | :--- |
 | Abkhazia | `.flag-abkhazia` | | |
 | Afghanistan | `.flag-afghanistan` | `.flag-af` | `.flag-afg` |
@@ -28,7 +28,7 @@ Flags size 20 x 14 px - retina ready sprite image.
 | Bahamas | `.flag-bahamas` | `.flag-bs` | `.flag-bhs` |
 | Bahrain | `.flag-bahrain` | `.flag-bh` | `.flag-bhr` |
 | Bangladesh | `.flag-bangladesh` | `.flag-bd` | `.flag-bgd` |
-| Balearic Islands | `.flag-balearic-islands` | `.flag-` | `.flag-` |
+| Balearic Islands | `.flag-balearic-islands` |  |  |
 | Barbados | `.flag-barbados` | `.flag-bb` | `.flag-brb` |
 | Basque Country | `.flag-basque-country` |  |  |
 | Belarus | `.flag-belarus` | `.flag-by` | `.flag-blr` |
@@ -42,7 +42,7 @@ Flags size 20 x 14 px - retina ready sprite image.
 | Bosnia and Herzegovina | `.flag-bosnia-and-herzegovina` | `.flag-ba` | `.flag-bih` |
 | Botswana | `.flag-botswana` | `.flag-bw` | `.flag-bwa` |
 | Brazil | `.flag-brazil` | `.flag-br` | `.flag-bra` |
-| British Columbia | `.flag-british-columbia` | `.flag-` | `.flag-` |
+| British Columbia | `.flag-british-columbia` |  |  |
 | British Indian Ocean Territory | `.flag-british-indian-ocean-territory` | `.flag-io` | `.flag-iot` |
 | British Virgin Islands | `.flag-british-virgin-islands` | `.flag-vg` | `.flag-vgb` |
 | Brunei | `.flag-brunei` | `.flag-bn` | `.flag-brn` |
@@ -62,7 +62,7 @@ Flags size 20 x 14 px - retina ready sprite image.
 | China | `.flag-china` | `.flag-cn` | `.flag-chn` |
 | Chinese Taipei | `.flag-chinese-taipei` |  |  |
 | Christmas Island | `.flag-christmas-island` | `.flag-cx` | `.flag-cxr` |
-| Cocos Islands | `.flag-cocos-islands` | `.flag-` | `.flag-` |
+| Cocos Islands | `.flag-cocos-islands` | `.flag-cc` | `.flag-cck` |
 | Colombia | `.flag-colombia` | `.flag-co` | `.flag-col` |
 | Comoros | `.flag-comoros` | `.flag-km` | `.flag-com` |
 | Congo | `.flag-congo` | `.flag-cg` | `.flag-cog` |
@@ -88,7 +88,7 @@ Flags size 20 x 14 px - retina ready sprite image.
 | Equatorial Guinea | `.flag-equatorial-guinea` | `.flag-gq` | `.flag-gnq` |
 | Eritrea | `.flag-eritrea` | `.flag-er` | `.flag-eri` |
 | Estonia | `.flag-estonia` | `.flag-ee` | `.flag-est` |
-| Eswatini (Swaziland) | `.flag-eswatini` <br/>`.flag-swaziland` | `.flag-` | `.flag-` |
+| Eswatini (Swaziland) | `.flag-eswatini` <br/>`.flag-swaziland` | `.flag-sz` | `.flag-swz` |
 | Ethiopia | `.flag-ethiopia` | `.flag-et` | `.flag-eth` |
 | Falkland Islands (Malvinas) | `.flag-falkland-islands` <br/>`.flag-malvinas` | `.flag-fk` | `.flag-flk` |
 | Faroe Islands | `.flag-faroe-islands` | `.flag-fo` | `.flag-fro` |
@@ -97,7 +97,7 @@ Flags size 20 x 14 px - retina ready sprite image.
 | France | `.flag-france` | `.flag-fr` | `.flag-fra` |
 | French Polynesia | `.flag-french-polynesia` | `.flag-pf` | `.flag-pyf` |
 | Gabon | `.flag-gabon` | `.flag-ga` | `.flag-gab` |
-| Galapagos Islands | `.flag-galapagos-islands` | `.flag-` | `.flag-` |
+| Galapagos Islands | `.flag-galapagos-islands` |  |  |
 | Gambia | `.flag-gambia` | `.flag-gm` | `.flag-gmb` |
 | Georgia | `.flag-georgia` | `.flag-ge` | `.flag-geo` |
 | Germany | `.flag-germany` | `.flag-de` | `.flag-deu` |
@@ -133,140 +133,141 @@ Flags size 20 x 14 px - retina ready sprite image.
 | Kazakhstan | `.flag-kazakhstan` | `.flag-kz` | `.flag-kaz` |
 | Kenya | `.flag-kenya` | `.flag-ke` | `.flag-ken` |
 | Kiribati | `.flag-kiribati` | `.flag-ki` | `.flag-kir` |
-| Kosovo | `.flag-kosovo` | `.flag-` | `.flag-` |
+| Kosovo | `.flag-kosovo` |  |  |
 | Kuwait | `.flag-kuwait` | `.flag-kw` | `.flag-kwt` |
 | Kyrgyzstan | `.flag-kyrgyzstan` | `.flag-kg` | `.flag-kgz` |
-| Latvia | `.flag-latvia` | `.flag-` | `.flag-` |
-| Laos | `.flag-laos` | `.flag-` | `.flag-` |
-| Lebanon | `.flag-lebanon` | `.flag-` | `.flag-` |
-| Lesotho | `.flag-lesotho` | `.flag-` | `.flag-` |
-| Liberia | `.flag-liberia` | `.flag-` | `.flag-` |
-| Libya | `.flag-libya` | `.flag-` | `.flag-` |
-| Liechtenstein | `.flag-liechtenstein` | `.flag-` | `.flag-` |
-| Lithuania | `.flag-lithuania` | `.flag-` | `.flag-` |
-| Luxembourg | `.flag-luxembourg` | `.flag-` | `.flag-` |
-| Macao | `.flag-macao` | `.flag-` | `.flag-` |
-| Madagascar | `.flag-madagascar` | `.flag-` | `.flag-` |
-| Madeira | `.flag-madeira` | `.flag-` | `.flag-` |
-| Malasya | `.flag-malasya` | `.flag-` | `.flag-` |
-| Malawi | `.flag-malawi` | `.flag-` | `.flag-` |
-| Maldives | `.flag-maldives` | `.flag-` | `.flag-` |
-| Mali | `.flag-mali` | `.flag-` | `.flag-` |
-| Malta | `.flag-malta` | `.flag-` | `.flag-` |
-| Marshall Island | `.flag-marshall-island` | `.flag-` | `.flag-` |
-| Martinique | `.flag-martinique` | `.flag-` | `.flag-` |
-| Mauritania | `.flag-mauritania` | `.flag-` | `.flag-` |
-| Mauritius | `.flag-mauritius` | `.flag-` | `.flag-` |
-| Melilla | `.flag-melilla` | `.flag-` | `.flag-` |
-| Mexico | `.flag-mexico` | `.flag-` | `.flag-` |
-| Micronesia | `.flag-micronesia` | `.flag-` | `.flag-` |
-| Moldova | `.flag-moldova` | `.flag-` | `.flag-` |
-| Monaco | `.flag-monaco` | `.flag-` | `.flag-` |
-| Mongolia | `.flag-mongolia` | `.flag-` | `.flag-` |
-| Montenegro | `.flag-montenegro` | `.flag-` | `.flag-` |
-| Montserrat | `.flag-montserrat` | `.flag-` | `.flag-` |
-| Morocco | `.flag-morocco` | `.flag-` | `.flag-` |
-| Mozambique | `.flag-mozambique` | `.flag-` | `.flag-` |
-| Myanmar | `.flag-myanmar` | `.flag-` | `.flag-` |
-| Namibia | `.flag-namibia` | `.flag-` | `.flag-` |
-| Nauru | `.flag-nauru` | `.flag-` | `.flag-` |
-| Nepal | `.flag-nepal` | `.flag-` | `.flag-` |
-| Netherlands | `.flag-netherlands` | `.flag-` | `.flag-` |
-| New Zealand | `.flag-new-zealand` | `.flag-` | `.flag-` |
-| Nicaragua | `.flag-nicaragua` | `.flag-` | `.flag-` |
-| Niger | `.flag-niger` | `.flag-` | `.flag-` |
-| Nigeria | `.flag-nigeria` | `.flag-` | `.flag-` |
-| Niue | `.flag-niue` | `.flag-` | `.flag-` |
-| Norfolk Island | `.flag-norfolk-island` | `.flag-` | `.flag-` |
+| Laos | `.flag-laos` | `.flag-la` | `.flag-lao` |
+| Latvia | `.flag-latvia` | `.flag-lv` | `.flag-lva` |
+| Lebanon | `.flag-lebanon` | `.flag-lb` | `.flag-lbn` |
+| Lesotho | `.flag-lesotho` | `.flag-ls` | `.flag-lso` |
+| Liberia | `.flag-liberia` | `.flag-lr` | `.flag-lbr` |
+| Libya | `.flag-libya` | `.flag-ly` | `.flag-lby` |
+| Liechtenstein | `.flag-liechtenstein` | `.flag-li` | `.flag-lie` |
+| Lithuania | `.flag-lithuania` | `.flag-lt` | `.flag-ltu` |
+| Luxembourg | `.flag-luxembourg` | `.flag-lu` | `.flag-lux` |
+| Macao | `.flag-macao` | `.flag-mo` | `.flag-mac` |
+| Madagascar | `.flag-madagascar` | `.flag-mg` | `.flag-mdg` |
+| Madeira | `.flag-madeira` | | |
+| Malawi | `.flag-malawi` | `.flag-mw` | `.flag-mwi` |
+| Malasya | `.flag-malasya` | `.flag-my` | `.flag-mys` |
+| Maldives | `.flag-maldives` | `.flag-mv` | `.flag-mdv` |
+| Mali | `.flag-mali` | `.flag-ml` | `.flag-mli` |
+| Malta | `.flag-malta` | `.flag-mt` | `.flag-mlt` |
+| Marshall Islands | `.flag-marshall-islands` | `.flag-mh` | `.flag-mhl` |
+| Martinique | `.flag-martinique` | `.flag-mq` | `.flag-mtq` |
+| Mauritania | `.flag-mauritania` | `.flag-mr` | `.flag-mrt` |
+| Mauritius | `.flag-mauritius` | `.flag-mu` | `.flag-mus` |
+| Melilla | `.flag-melilla` | | |
+| Mexico | `.flag-mexico` | `.flag-mx` | `.flag-mex` |
+| Micronesia | `.flag-micronesia` | `.flag-fm` | `.flag-fsm` |
+| Moldova | `.flag-moldova` | `.flag-md` | `.flag-mda` |
+| Monaco | `.flag-monaco` | `.flag-mc` | `.flag-mco` |
+| Mongolia | `.flag-mongolia` | `.flag-mn` | `.flag-mng` |
+| Montenegro | `.flag-montenegro` | `.flag-me` | `.flag-mne` |
+| Montserrat | `.flag-montserrat` | `.flag-ms` | `.flag-msr` |
+| Morocco | `.flag-morocco` | `.flag-ma` | `.flag-mar` |
+| Mozambique | `.flag-mozambique` | `.flag-mz` | `.flag-moz` |
+| Myanmar (Burma) | `.flag-myanmar` <br/>`.flag-burma` | `.flag-mn` | `.flag-mmr` |
+| Namibia | `.flag-namibia` | `.flag-na` | `.flag-nam` |
+| Nauru | `.flag-nauru` | `.flag-nr` | `.flag-nru` |
+| Nepal | `.flag-nepal` | `.flag-np` | `.flag-npl` |
+| Netherlands | `.flag-netherlands` | `.flag-nl` | `.flag-nld` |
+| New Zealand | `.flag-new-zealand` | `.flag-nz` | `.flag-nzl` |
+| Nicaragua | `.flag-nicaragua` | `.flag-ni` | `.flag-nic` |
+| Niger | `.flag-niger` | `.flag-ne` | `.flag-ner` |
+| Nigeria | `.flag-nigeria` | `.flag-ng` | `.flag-nga` |
+| Niue | `.flag-niue` | `.flag-nu` | `.flag-niu` |
+| Norfolk Island | `.flag-norfolk-island` | `.flag-nf` | `.flag-nfk` |
 | North Korea | `.flag-north-korea` | `.flag-kp` | `.flag-prk` |
-| Northern Cyprus | `.flag-northern-cyprus` | `.flag-` | `.flag-` |
-| Northern Ireland | `.flag-northern-ireland` | `.flag-` | `.flag-` |
-| Northern Marianas Islands | `.flag-northern-marianas-islands` | `.flag-` | `.flag-` |
-| Norway | `.flag-norway` | `.flag-` | `.flag-` |
-| Oman | `.flag-oman` | `.flag-` | `.flag-` |
-| Ossetia | `.flag-ossetia` | `.flag-` | `.flag-` |
-| Palau | `.flag-palau` | `.flag-` | `.flag-` |
-| Palestine | `.flag-palestine` | `.flag-` | `.flag-` |
-| Pakistan | `.flag-pakistan` | `.flag-` | `.flag-` |
-| Panama | `.flag-panama` | `.flag-` | `.flag-` |
-| Papua New Guinea | `.flag-papua-new-guinea` | `.flag-` | `.flag-` |
-| Paraguay | `.flag-paraguay` | `.flag-` | `.flag-` |
-| Peru | `.flag-peru` | `.flag-` | `.flag-` |
-| Philippines | `.flag-philippines` | `.flag-` | `.flag-` |
-| Pitcairn Islands | `.flag-pitcairn-islands` | `.flag-` | `.flag-` |
-| Poland | `.flag-poland` | `.flag-` | `.flag-` |
-| Portugal | `.flag-portugal` | `.flag-` | `.flag-` |
-| Puerto Rico | `.flag-puerto-rico` | `.flag-` | `.flag-` |
-| Rapa Nui | `.flag-rapa-nui` | `.flag-` | `.flag-` |
-| Republic of Macedonia | `.flag-republic-of-macedonia` | `.flag-` | `.flag-` |
-| Romania | `.flag-romania` | `.flag-` | `.flag-` |
-| Russia | `.flag-russia` | `.flag-` | `.flag-` |
-| Rwanda | `.flag-rwanda` | `.flag-` | `.flag-` |
-| Tanzania | `.flag-tanzania` | `.flag-` | `.flag-` |
+| Northern Cyprus | `.flag-northern-cyprus` | | |
+| Northern Ireland | `.flag-northern-ireland` | | |
+| North Macedonia | `.flag-macedonia` <br/>`.flag-north-macedonia` | `.flag-mk` | `.flag-mkd` |
+| Northern Marianas Islands | `.flag-northern-marianas-islands` | `.flag-mp` | `.flag-mnp` |
+| Norway | `.flag-norway` | `.flag-no` | `.flag-nor` |
+| Oman | `.flag-oman` | `.flag-om` | `.flag-omn` |
+| Ossetia | `.flag-ossetia` |  |  |
+| Pakistan | `.flag-pakistan` | `.flag-pk` | `.flag-pak` |
+| Palau | `.flag-palau` | `.flag-pw` | `.flag-plw` |
+| Palestine | `.flag-palestine` | `.flag-ps` | `.flag-pse` |
+| Panama | `.flag-panama` | `.flag-pa` | `.flag-pan` |
+| Papua New Guinea | `.flag-papua-new-guinea` | `.flag-pg` | `.flag-png` |
+| Paraguay | `.flag-paraguay` | `.flag-py` | `.flag-pry` |
+| Peru | `.flag-peru` | `.flag-pe` | `.flag-per` |
+| Philippines | `.flag-philippines` | `.flag-ph` | `.flag-phl` |
+| Pitcairn Islands | `.flag-pitcairn` <br/>`.flag-pitcairn-islands` | `.flag-pn` | `.flag-pcn` |
+| Poland | `.flag-poland` | `.flag-pl` | `.flag-pol` |
+| Portugal | `.flag-portugal` | `.flag-pt` | `.flag-prt` |
+| Puerto Rico | `.flag-puerto-rico` | `.flag-pr` | `.flag-pri` |
+| Qatar | `.flag-qatar` | `.flag-qa` | `.flag-qat` |
+| Rapa Nui | `.flag-rapa-nui` | | |
+| Romania | `.flag-romania` | `.flag-ro` | `.flag-rou` |
+| Russia | `.flag-russia` | `.flag-ru` | `.flag-rus` |
+| Rwanda | `.flag-rwanda` | `.flag-rw` | `.flag-rwa` |
 | Saba Island | `.flag-saba-island` |  |  |
-| Sahrawi Arab Democratic Republic | `.flag-sahrawi-arab-democratic-republic` | `.flag-` | `.flag-` |
-| Saint Kitts and Nevis | `.flag-saint-kitts-and-nevis` | `.flag-` | `.flag-` |
-| Samoa | `.flag-samoa` | `.flag-` | `.flag-` |
-| San Marino | `.flag-san-marino` | `.flag-` | `.flag-` |
-| Sao Tome and Prince | `.flag-sao-tome-and-prince` | `.flag-` | `.flag-` |
-| Sardinia | `.flag-sardinia` | `.flag-` | `.flag-` |
-| Saudi Arabia | `.flag-saudi-arabia` | `.flag-` | `.flag-` |
-| Senegal | `.flag-senegal` | `.flag-` | `.flag-` |
-| Serbia | `.flag-serbia` | `.flag-` | `.flag-` |
-| Seychelles | `.flag-seychelles` | `.flag-` | `.flag-` |
-| Scotland | `.flag-scotland` | `.flag-` | `.flag-` |
-| Sicily | `.flag-sicily` | `.flag-` | `.flag-` |
-| Sierra Leone | `.flag-sierra-leone` | `.flag-` | `.flag-` |
-| Singapore | `.flag-singapore` | `.flag-` | `.flag-` |
+| Saint Kitts and Nevis | `.flag-saint-kitts-and-nevis` | `.flag-kn` | `.flag-kna` |
+| Saint Lucia | `.flag-saint-lucia` | `.flag-lc` | `.flag-lca` |
+| Samoa | `.flag-samoa` | `.flag-ws` | `.flag-wsm` |
+| San Marino | `.flag-san-marino` | `.flag-sm` | `.flag-smr` |
+| Sao Tome and Prince | `.flag-sao-tome-and-prince` | `.flag-st` | `.flag-stp` |
+| Sardinia | `.flag-sardinia` |  |  |
+| Saudi Arabia | `.flag-saudi-arabia` | `.flag-sa` | `.flag-sau` |
+| Scotland | `.flag-scotland` |  |  |
+| Senegal | `.flag-senegal` | `.flag-sn` | `.flag-sen` |
+| Serbia | `.flag-serbia` | `.flag-rs` | `.flag-srb` |
+| Seychelles | `.flag-seychelles` | `.flag-sc` | `.flag-syc` |
+| Sicily | `.flag-sicily` |  |  |
+| Sierra Leone | `.flag-sierra-leone` | `.flag-sl` | `.flag-sle` |
+| Singapore | `.flag-singapore` | `.flag-sg` | `.flag-sgp` |
 | Sint Eustatius | `.flag-sint-eustatius` |  |  |
-| Sint Maarten | `.flag-sint-maarten` | `.flag-` | `.flag-` |
-| Slovakia | `.flag-slovakia` | `.flag-` | `.flag-` |
-| Slovenia | `.flag-slovenia` | `.flag-` | `.flag-` |
-| Solomon Islands | `.flag-solomon-islands` | `.flag-` | `.flag-` |
-| Somalia | `.flag-somalia` | `.flag-` | `.flag-` |
-| Somaliland | `.flag-somaliland` | `.flag-` | `.flag-` |
-| South Africa | `.flag-south-africa` | `.flag-` | `.flag-` |
-| South Korea (Korea) | `.flag-korea` <br/>`.flag-south-korea` | `.flag-` | `.flag-` |
-| South Sudan | `.flag-south-sudan` | `.flag-` | `.flag-` |
-| Spain | `.flag-spain` | `.flag-` | `.flag-` |
-| Sri Lanka | `.flag-sri-lanka` | `.flag-` | `.flag-` |
-| St. Barts | `.flag-st-barts` | `.flag-` | `.flag-` |
-| St. Lucia | `.flag-st-lucia` | `.flag-` | `.flag-` |
-| St. Vincent and the Grenadines | `.flag-st-vincent-and-the-grenadines` | `.flag-` | `.flag-` |
-| Sudan | `.flag-sudan` | `.flag-` | `.flag-` |
-| Suriname | `.flag-suriname` | `.flag-` | `.flag-` |
-| Syria | `.flag-syria` | `.flag-` | `.flag-` |
-| Sweden | `.flag-sweden` | `.flag-` | `.flag-` |
-| Switzerland | `.flag-switzerland` | `.flag-` | `.flag-` |
-| Taiwan | `.flag-taiwan` | `.flag-` | `.flag-` |
-| Tajikistan | `.flag-tajikistan` | `.flag-` | `.flag-` |
-| Thailand | `.flag-thailand` | `.flag-` | `.flag-` |
-| Tibet | `.flag-tibet` | `.flag-` | `.flag-` |
-| Togo | `.flag-togo` | `.flag-` | `.flag-` |
-| Tokelau | `.flag-tokelau` | `.flag-` | `.flag-` |
-| Tonga | `.flag-tonga` | `.flag-` | `.flag-` |
-| Transnistria | `.flag-transnistria` | `.flag-` | `.flag-` |
-| Trinidad and Tobago | `.flag-trinidad-and-tobago` | `.flag-` | `.flag-` |
-| Tunisia | `.flag-tunisia` | `.flag-` | `.flag-` |
-| Turkey | `.flag-turkey` | `.flag-` | `.flag-` |
-| Turkmenistan | `.flag-turkmenistan` | `.flag-` | `.flag-` |
-| Turks and Caicos | `.flag-turks-and-caicos` | `.flag-` | `.flag-` |
-| Tuvalu | `.flag-tuvalu` | `.flag-` | `.flag-` |
-| Uganda | `.flag-uganda` | `.flag-` | `.flag-` |
-| Ukraine | `.flag-ukraine` | `.flag-` | `.flag-` |
-| United Arab Emirates | `.flag-united-arab-emirates` | `.flag-` | `.flag-` |
-| United Kingdom | `.flag-united-kingdom` | `.flag-` | `.flag-` |
-| United States of America | `.flag-usa` | `.flag-usa` | `.flag-` |
-| Uruguay | `.flag-uruguay` | `.flag-` | `.flag-` |
-| Uzbekistn | `.flag-uzbekistn` | `.flag-` | `.flag-` |
-| Yemen | `.flag-yemen` | `.flag-` | `.flag-` |
-| Vanuatu | `.flag-vanuatu` | `.flag-` | `.flag-` |
-| Venezuela | `.flag-venezuela` | `.flag-` | `.flag-` |
-| Vietnam | `.flag-vietnam` | `.flag-` | `.flag-` |
-| Virgin Islands | `.flag-virgin-islands` | `.flag-` | `.flag-` |
-| Wales | `.flag-wales` | `.flag-` | `.flag-` |
-| Zambia | `.flag-zambia` | `.flag-` | `.flag-` |
-| Zimbabwe | `.flag-zimbabwe` | `.flag-` | `.flag-` |
+| Sint Maarten | `.flag-sint-maarten` | `.flag-sx` | `.flag-sxm` |
+| Slovakia | `.flag-slovakia` | `.flag-sk` | `.flag-svk` |
+| Slovenia | `.flag-slovenia` | `.flag-si` | `.flag-svn` |
+| Solomon Islands | `.flag-solomon-islands` | `.flag-sb` | `.flag-slb` |
+| Somalia | `.flag-somalia` | `.flag-so` | `.flag-som` |
+| Somaliland | `.flag-somaliland` |  |  |
+| South Africa | `.flag-south-africa` | `.flag-za` | `.flag-zaf` |
+| South Korea (Korea) | `.flag-korea` <br/>`.flag-south-korea` | `.flag-kr` | `.flag-kor` |
+| South Sudan | `.flag-south-sudan` | `.flag-ss` | `.flag-ssd` |
+| Spain | `.flag-spain` | `.flag-es` | `.flag-esp` |
+| Sri Lanka | `.flag-sri-lanka` | `.flag-lk` | `.flag-lka` |
+| St. Barts | `.flag-st-barts` |  |  |
+| St. Vincent and the Grenadines | `.flag-st-vincent-and-the-grenadines` |  |  |
+| Sudan | `.flag-sudan` | `.flag-sd` | `.flag-sdn` |
+| Suriname | `.flag-suriname` | `.flag-sr` | `.flag-sur` |
+| Sweden | `.flag-sweden` | `.flag-se` | `.flag-swe` |
+| Switzerland | `.flag-switzerland` | `.flag-ch` | `.flag-che` |
+| Syria | `.flag-syria` | `.flag-sy` | `.flag-syr` |
+| Taiwan | `.flag-taiwan` | `.flag-tw` | `.flag-twn` |
+| Tajikistan | `.flag-tajikistan` | `.flag-tj` | `.flag-tjk` |
+| Tanzania | `.flag-tanzania` | `.flag-tz` | `.flag-tza` |
+| Thailand | `.flag-thailand` | `.flag-th` | `.flag-tha` |
+| Tibet | `.flag-tibet` |  |  |
+| Togo | `.flag-togo` | `.flag-tg` | `.flag-tgo` |
+| Tokelau | `.flag-tokelau` | `.flag-tk` | `.flag-tkl` |
+| Tonga | `.flag-tonga` | `.flag-to` | `.flag-ton` |
+| Transnistria | `.flag-transnistria` |  |  |
+| Trinidad and Tobago | `.flag-trinidad-and-tobago` | `.flag-tt` | `.flag-tto` |
+| Tunisia | `.flag-tunisia` | `.flag-tn` | `.flag-tun` |
+| Turkey | `.flag-turkey` | `.flag-tr` | `.flag-tur` |
+| Turkmenistan | `.flag-turkmenistan` | `.flag-tm` | `.flag-tkm` |
+| Turks and Caicos Islands | `.flag-turks-and-caicos-islands` | `.flag-tc` | `.flag-tca` |
+| Tuvalu | `.flag-tuvalu` | `.flag-tv` | `.flag-tuv` |
+| Uganda | `.flag-uganda` | `.flag-ug` | `.flag-uga` |
+| Ukraine | `.flag-ukraine` | `.flag-ua` | `.flag-ukr` |
+| United Arab Emirates | `.flag-united-arab-emirates` <br/> `.flag-uae`| `.flag-ae` | `.flag-are` |
+| United Kingdom (Great Britain) | `.flag-great-britain` <br/>`.flag-united-kingdom` <br/>`.flag-uk` | `.flag-gb` | `.flag-gbr` |
+| United States of America | `.flag-united-states-of-america` | `.flag-us` | `.flag-usa` |
+| Uruguay | `.flag-uruguay` | `.flag-uy` | `.flag-ury` |
+| Uzbekistn | `.flag-uzbekistn` | `.flag-uz` | `.flag-uzb` |
+| Vanuatu | `.flag-vanuatu` | `.flag-vu` | `.flag-vut` |
+| Venezuela | `.flag-venezuela` | `.flag-ve` | `.flag-ven` |
+| Viet Nam | `.flag-vietnam` <br/>`.flag-viet-nam` | `.flag-vn` | `.flag-vnm` |
+| Virgin Islands (U.S.) | `.flag-virgin-islands` | `.flag-vi` | `.flag-vir` |
+| Wales | `.flag-wales` |  |  |
+| Western Sahara <br/>(Sahrawi Arab Democratic Republic) | `.flag-western-sahara` <br/>`.flag-sahrawi-arab-democratic-republic` | `.flag-eh` | `.flag-esh` |
+| Yemen | `.flag-yemen` | `.flag-ye` | `.flag-yem` |
+| Zambia | `.flag-zambia` | `.flag-zm` | `.flag-zmb` |
+| Zimbabwe | `.flag-zimbabwe` | `.flag-zw` | `.flag-zwe` |
 
 ### Additional images
 
