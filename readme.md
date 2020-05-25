@@ -310,9 +310,9 @@ Add `.flag .flag-NAME` classes to any inline element, ex:
 Enjoy!
 ---
 
----
+
 Also, you can check out my [CSSMap Plugin](https://cssmapsplugin.com/)
 ---
-**CSS & jQuery interactive maps**
-The CSSMap script converts a simple list of regions into fully responsive interactive map using the well known CSS sprites and works in all modern web browsers.
+**CSS & jQuery interactive maps**<br/>
+The CSSMap script converts a simple list of regions into fully responsive interactive map using the well known CSS sprites and works in all modern web browsers.<br/>
 [cssmapsplugin.com](https://cssmapsplugin.com/)
