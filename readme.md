@@ -2,7 +2,7 @@
 
 Simple and lightweight retina ready sprite image flags - *static size (20 x 14 px)*
 ---
-Flags made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+Flags made by [Freepik](https://www.flaticon.com/packs/international-flags) from [www.flaticon.com](https://www.flaticon.com/)
 
 **[Live demo](https://popardowski.github.io/css-flags/)**
 ---
