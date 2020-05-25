@@ -1,13 +1,12 @@
 $flag: (
-  background:      #f5f5f5,
+  img-path:        '',        // PATH TO THE FLAGS.PNG IMAGE;
+  background:      #f5f5f5, // DEFAULT BACKGROUND COLOR;
   height:          14px,
   width:           20px,
   cols:            15,
   rows:            18
 ) !default;
 
-$flags-image-width:        (map-get($flag, 'width') * map-get($flag, 'cols'));
-$flags-image-height:       (map-get($flag, 'height') * map-get($flag, 'rows'));
 $flags: (
   'mauritius, &-mu, &-mus',
   'cyprus, &-cy, &-cyp',
@@ -281,8 +280,11 @@ $flags: (
   'asia'
 );
 
+$flags-image-width:  (map-get($flag, 'width') * map-get($flag, 'cols'));
+$flags-image-height: (map-get($flag, 'height') * map-get($flag, 'rows'));
+
 .flag {
-  background: map-get($flag, 'background') url('flags.png') no-repeat ($flags-image-width * -1) ($flags-image-height * -1);
+  background: map-get($flag, 'background') url('#{map-get($flag, 'img-path')}flags.png') no-repeat ($flags-image-width * -1) ($flags-image-height * -1);
   background-size: $flags-image-width $flags-image-height;
   display: inline-block;
   height: map-get($flag, 'height');
@@ -298,6 +300,7 @@ $flags: (
     &-#{nth($flags, $i)} {
       background-position: ((map-get($flag, 'width') * (($i - 1) % map-get($flag, 'cols'))) * -1) ($row * -1);
     } // END .flag-*
-  }
+
+  } // END @for $i from 1 through length($flags)
 
 } // END .flag;

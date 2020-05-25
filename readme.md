@@ -1,10 +1,28 @@
 # CSS Flags
 
-Flags size 20 x 14 px - retina ready sprite image.
+Simple and lightweight retina ready sprite image flags - *static size (20 x 14 px)*
+---
+Flags made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+
+**[Live demo](https://popardowski.github.io/css-flags/)**
+---
 
 ## Usage
 
-### List of countries
+Copy minifies stylesheet and flags image file from *./dist/css* folder to your website destination.
+Add stylesheet from *./dist* folder to your website in any prefered way, ex:
+```html
+<link rel="stylesheet" href="./dist/css/flags.css" media="all" />
+```
+
+Add `.flag .flag-NAME` classes to any inline element, ex:
+```html
+<span class="flag flag-azores-islands"></span>
+<span class="flag flag-pl"></span>
+<span class="flag flag-nato"></span>
+```
+
+## Available flags
 
 | Country | flag name class | ISO code alpha 2 | … alpha 3 |
 | :--- | :--- | :--- | :--- |
@@ -288,3 +306,13 @@ Flags size 20 x 14 px - retina ready sprite image.
 | European Union | `.flag-european-union` | `.flag-eu` |
 | Nato | `.flag-nato` | |
 | United Nations | `.flag-united-nations` | `.flag-un` |
+
+Enjoy!
+---
+
+---
+Also, you can check out my [CSSMap Plugin](https://cssmapsplugin.com/)
+---
+**CSS & jQuery interactive maps**
+The CSSMap script converts a simple list of regions into fully responsive interactive map using the well known CSS sprites and works in all modern web browsers.
+[cssmapsplugin.com](https://cssmapsplugin.com/)
